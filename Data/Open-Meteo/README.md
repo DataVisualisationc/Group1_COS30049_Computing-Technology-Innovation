@@ -24,8 +24,8 @@ They are linked by `location_id`.
 | `wind_gusts_10m_max (km/h)` | Daily max wind gust at 10m height. |
 | `snowfall_sum (cm)` | Total snowfall for the day. |
 | `rain_sum (mm)` | Total rainfall for the day. |
-| `precipitation_hours (h)` | Number of hours with measurable precipitation that day. *However, based on the website, precipitation can also be formed by snow*  |
-| `precipitation_sum (mm)` | Total precipitation (rain + snow water-equivalent) for the day. |
+| `precipitation_hours (h)` | Number of hours with measurable precipitation that day. Basically means total hours of raining that day.|
+| `precipitation_sum (mm)` | Total precipitation (rain + snow water-equivalent) for the day.  *However, based on the website, precipitation for this sum can also be formed by snow* |
 
 Each `location_id` has exactly **1,857 rows** (one per day, 2021-01-01 to
 2026-01-31), so each prefecture file has 4×1,857 or 5×1,857 weather rows.
