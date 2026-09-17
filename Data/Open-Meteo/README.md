@@ -54,6 +54,12 @@ This was pulled from the **Open-Meteo historical weather API**
 | Kagawa | Takamatsu | Tadotsu | Utsumi (Higashikagawa) | Kounan (Marugame) | — |
 | Kochi | Kouchi | Murotomisaki | Sukumo | Aki | — |
 | Ehime | Matsuyama | Uwajima | Niihama | Imabari | — |
+| Kyoto | Kyoto | Miyazu | Fukuchiyama | Kyotanabe | — |
+| Hyogo | Kobe | Toyooka | Himeji | Sumoto (Awaji) | — |
+| Tokushima | Tokushima | Ikeda (Miyoshi) | Hiwasa | Kaiyou | — |
+| Tottori | Tottori | Yonago | Kurayoshi | Chizu | — |
+| Okayama | Okayama | Tsuyama | Kasaoka | Tamano | — |
+| Hiroshima | Hiroshima | Fukuyama | Shoubara | Kure | — |
 
 *(Kagawa, Kochi, and Ehime only have 4 locations, so `location_id` 4 does not
 exist for those three.)*
