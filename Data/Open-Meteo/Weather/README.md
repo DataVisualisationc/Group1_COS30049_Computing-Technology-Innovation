@@ -35,42 +35,60 @@ This was pulled from the **Open-Meteo historical weather API**
 
 ## location_id → city/town reference
 
-| Prefecture | 0                | 1                   | 2                      | 3                  | 4                    |
-| ---------- | ---------------- | ------------------- | ---------------------- | ------------------ | -------------------- |
-| Yamaguchi  | Shimonoseki      | Hagi                | Iwakuni                | Yamaguchi          | Ube                  |
-| Miyazaki   | Miyazaki         | Nobeoka             | Takachiho              | Kushima            | Kobayashi            |
-| Kagoshima  | Kagoshima        | Yakushima           | Naze (Amami)           | Makurazaki         | Ibusuki              |
-| Oita       | Oita             | Nakatsu             | Saeki                  | Hita               | Beppu                |
-| Fukuoka    | Fukuoka (Hakata) | Kitakyushu (Yahata) | Kurume                 | Munakata           | Yanagawa             |
-| Kumamoto   | Kumamoto         | Amakusa (Hondo)     | Hitoyoshi              | Aso                | Minamata             |
-| Saga       | Saga             | Karatsu             | Imari                  | Ureshino           | Tosu                 |
-| Nagasaki   | Nagasaki         | Sasebo              | Hirado                 | Tsushima (Izuhara) | Fukue (Goto Islands) |
-| Okinawa    | Naha             | Ishigakishima       | Miyakoshima            | Nago               | Yonagunishima        |
-| Shimane    | Matsue           | Hamada              | Oota                   | Izumo              | Saigo (Oki Islands)  |
-| Kagawa     | Takamatsu        | Tadotsu             | Utsumi (Higashikagawa) | Kounan (Marugame)  | —                    |
-| Kochi      | Kouchi           | Murotomisaki        | Sukumo                 | Aki                | —                    |
-| Ehime      | Matsuyama        | Uwajima             | Niihama                | Imabari            | —                    |
-| Kyoto      | Kyoto            | Miyazu              | Fukuchiyama            | Kyotanabe          | —                    |
-| Hyogo      | Kobe             | Toyooka             | Himeji                 | Sumoto (Awaji)     | —                    |
-| Tokushima  | Tokushima        | Ikeda (Miyoshi)     | Hiwasa                 | Kaiyou             | —                    |
-| Tottori    | Tottori          | Yonago              | Kurayoshi              | Chizu              | —                    |
-| Okayama    | Okayama          | Tsuyama             | Kasaoka                | Tamano             | —                    |
-| Hiroshima  | Hiroshima        | Fukuyama            | Shoubara               | Kure               | —                    |
-| Gifu       | Gifu             | Gujo Hachiman       | Nakatsugawa            | Shirakawa-go       | —                    |
-| Gunma      | Maebashi         | Kusatsu             | Minakami               | Tatebayashi        | —                    |
-| Osaka      | Osaka            | Toyonaka            | Hirakata               | Sakai              | Kumatori             |
-| Aichi      | Nagoya           | Toyohashi           | Minamichita            | Toyota             | —                    |
-| Chiba      | Chiba            | Choushi             | Tateyama               | Narita             | —                    |
-| Aomori     | Aomori           | Hachinohe           | Hirosaki               | Mutsu              | —                    |
-| Akita      | Akita            | Oodate              | Yuzawa                 | Oga                | —                    |
-| Fukushima  | Fukushima        | Aizuwakamatsu       | Souma                  | Shirakawa          | —                    |
-| Ibaraki    | Mito             | Hitachi             | Tsukuba                | Kashima            | —                    |
-| Ishikawa   | Kanazawa         | Suzu                | Komatsu                | Nanao              | —                    |
-| Fukui      | Fukui            | Tsuruga             | Obama                  | Oono               | —                    |
-| Kanagawa   | Yokohama         | Odawara             | Miura                  | Ebina              | —                    |
-| Iwate      | Morioka          | Miyako              | Ichinoseki             | Kuji               | —                    |
-| Miyagi     | Sendai           | Kesennuma           | Zao                    | Marumori           | —                    |
-| Saitama    | Saitama          | Chichibu            | Kumagaya               | Koshigaya          | —                    |
+| Prefecture            | 0                | 1                     | 2                      | 3                     | 4                    |
+| --------------------- | ---------------- | --------------------- | ---------------------- | --------------------- | -------------------- |
+| Yamaguchi             | Shimonoseki      | Hagi                  | Iwakuni                | Yamaguchi             | Ube                  |
+| Miyazaki              | Miyazaki         | Nobeoka               | Takachiho              | Kushima               | Kobayashi            |
+| Kagoshima             | Kagoshima        | Yakushima             | Naze (Amami)           | Makurazaki            | Ibusuki              |
+| Oita                  | Oita             | Nakatsu               | Saeki                  | Hita                  | Beppu                |
+| Fukuoka               | Fukuoka (Hakata) | Kitakyushu (Yahata)   | Kurume                 | Munakata              | Yanagawa             |
+| Kumamoto              | Kumamoto         | Amakusa (Hondo)       | Hitoyoshi              | Aso                   | Minamata             |
+| Saga                  | Saga             | Karatsu               | Imari                  | Ureshino              | Tosu                 |
+| Nagasaki              | Nagasaki         | Sasebo                | Hirado                 | Tsushima (Izuhara)    | Fukue (Goto Islands) |
+| Okinawa               | Naha             | Ishigakishima         | Miyakoshima            | Nago                  | Yonagunishima        |
+| Shimane               | Matsue           | Hamada                | Oota                   | Izumo                 | Saigo (Oki Islands)  |
+| Kagawa                | Takamatsu        | Tadotsu               | Utsumi (Higashikagawa) | Kounan (Marugame)     | —                    |
+| Kochi                 | Kouchi           | Murotomisaki          | Sukumo                 | Aki                   | —                    |
+| Ehime                 | Matsuyama        | Uwajima               | Niihama                | Imabari               | —                    |
+| Kyoto                 | Kyoto            | Miyazu                | Fukuchiyama            | Kyotanabe             | —                    |
+| Hyogo                 | Kobe             | Toyooka               | Himeji                 | Sumoto (Awaji)        | —                    |
+| Tokushima             | Tokushima        | Ikeda (Miyoshi)       | Hiwasa                 | Kaiyou                | —                    |
+| Tottori               | Tottori          | Yonago                | Kurayoshi              | Chizu                 | —                    |
+| Okayama               | Okayama          | Tsuyama               | Kasaoka                | Tamano                | —                    |
+| Hiroshima             | Hiroshima        | Fukuyama              | Shoubara               | Kure                  | —                    |
+| Gifu                  | Gifu             | Gujo Hachiman         | Nakatsugawa            | Shirakawa-go          | —                    |
+| Gunma                 | Maebashi         | Kusatsu               | Minakami               | Tatebayashi           | —                    |
+| Osaka                 | Osaka            | Toyonaka              | Hirakata               | Sakai                 | Kumatori             |
+| Aichi                 | Nagoya           | Toyohashi             | Minamichita            | Toyota                | —                    |
+| Chiba                 | Chiba            | Choushi               | Tateyama               | Narita                | —                    |
+| Aomori                | Aomori           | Hachinohe             | Hirosaki               | Mutsu                 | —                    |
+| Akita                 | Akita            | Oodate                | Yuzawa                 | Oga                   | —                    |
+| Fukushima             | Fukushima        | Aizuwakamatsu         | Souma                  | Shirakawa             | —                    |
+| Ibaraki               | Mito             | Hitachi               | Tsukuba                | Kashima               | —                    |
+| Ishikawa              | Kanazawa         | Suzu                  | Komatsu                | Nanao                 | —                    |
+| Fukui                 | Fukui            | Tsuruga               | Obama                  | Oono                  | —                    |
+| Kanagawa              | Yokohama         | Odawara               | Miura                  | Ebina                 | —                    |
+| Iwate                 | Morioka          | Miyako                | Ichinoseki             | Kuji                  | —                    |
+| Miyagi                | Sendai           | Kesennuma             | Zao                    | Marumori              | —                    |
+| Saitama               | Saitama          | Chichibu              | Kumagaya               | Koshigaya             | —                    |
+| Nara                  | Nara             | Gojo                  | Kamikitayama           | Uda (Oouda)           | —                    |
+| Shizuoka              | Shizuoka         | Hamamatsu             | Atami                  | Matsuzaki             | —                    |
+| Shiga                 | Otsu             | Hikone                | Nagahama               | Shigaraki             | —                    |
+| Mie                   | Tsu              | Kuwana                | Kumano                 | Toba                  | —                    |
+| Hokkaido - Ishikari   | Sapporo          | Chitose               | Shinshinotsu           | Hamamasu              | —                    |
+| Hokkaido - Shiribeshi | Otaru            | Kutchan               | Suttsu                 | Kimobetsu             | —                    |
+| Hokkaido - Oshima     | Hakodate         | Matsumae              | Mori                   | Kikonai               | —                    |
+| Hokkaido - Soya       | Wakkanai         | Kafuka (Rebun Island) | Hamatonbetsu           | Esashi (Kitamiesashi) | —                    |
+| Hokkaido - Kamikawa   | Asahikawa        | Furano                | Nayoro                 | Shimukappu            | —                    |
+| Hokkaido - Hidaka     | Urakawa          | Shizunai (Shinhidaka) | Erimomisaki            | Hidakamonbetsu        | —                    |
+| Hokkaido - Rumoi      | Rumoi            | Enbetsu               | Mashike                | Shosanbetsu           | —                    |
+| Hokkaido - Sorachi    | Iwamizawa        | Takikawa              | Yubari                 | Naganuma              | —                    |
+| Hokkaido - Iburi      | Tomakomai        | Muroran               | Date                   | Atsuma                | —                    |
+| Hokkaido - Hiyama     | Esashi (Hiyama)  | Setana                | Okushiri Island        | Imagane               | —                    |
+| Hokkaido - Tokachi    | Obihiro          | Ikeda                 | Ashoro                 | Hiroo                 | —                    |
+| Hokkaido - Okhotsk    | Abashiri         | Kitami                | Monbetsu               | Shari                 | —                    |
+| Hokkaido - Nemuro     | Nemuro           | Rausu                 | Bekkai                 | Nakashibetsu          | —                    |
+| Hokkaido - Kushiro    | Kushiro          | Teshikaga             | Akankohan              | Shiranuka             | —                    |
 
 _(some of the location like Kagawa, Kochi, and Ehime only have 4 locations, so `location_id` 4 does not
 exist for those.)_
