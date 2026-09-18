@@ -67,6 +67,10 @@ This was pulled from the **Open-Meteo historical weather API**
 | Ibaraki    | Mito             | Hitachi             | Tsukuba                | Kashima            | —                    |
 | Ishikawa   | Kanazawa         | Suzu                | Komatsu                | Nanao              | —                    |
 | Fukui      | Fukui            | Tsuruga             | Obama                  | Oono               | —                    |
+| Kanagawa   | Yokohama         | Odawara             | Miura                  | Ebina              | —                    |
+| Iwate      | Morioka          | Miyako              | Ichinoseki             | Kuji               | —                    |
+| Miyagi     | Sendai           | Kesennuma           | Zao                    | Marumori           | —                    |
+| Saitama    | Saitama          | Chichibu            | Kumagaya               | Koshigaya          | —                    |
 
 _(some of the location like Kagawa, Kochi, and Ehime only have 4 locations, so `location_id` 4 does not
 exist for those.)_
