@@ -61,6 +61,12 @@ This was pulled from the **Open-Meteo historical weather API**
 | Osaka      | Osaka            | Toyonaka            | Hirakata               | Sakai              | Kumatori             |
 | Aichi      | Nagoya           | Toyohashi           | Minamichita            | Toyota             | —                    |
 | Chiba      | Chiba            | Choushi             | Tateyama               | Narita             | —                    |
+| Aomori     | Aomori           | Hachinohe           | Hirosaki               | Mutsu              | —                    |
+| Akita      | Akita            | Oodate              | Yuzawa                 | Oga                | —                    |
+| Fukushima  | Fukushima        | Aizuwakamatsu       | Souma                  | Shirakawa          | —                    |
+| Ibaraki    | Mito             | Hitachi             | Tsukuba                | Kashima            | —                    |
+| Ishikawa   | Kanazawa         | Suzu                | Komatsu                | Nanao              | —                    |
+| Fukui      | Fukui            | Tsuruga             | Obama                  | Oono               | —                    |
 
 _(some of the location like Kagawa, Kochi, and Ehime only have 4 locations, so `location_id` 4 does not
 exist for those.)_
