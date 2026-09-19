@@ -89,6 +89,12 @@ This was pulled from the **Open-Meteo historical weather API**
 | Hokkaido - Okhotsk    | Abashiri         | Kitami                | Monbetsu               | Shari                 | —                    |
 | Hokkaido - Nemuro     | Nemuro           | Rausu                 | Bekkai                 | Nakashibetsu          | —                    |
 | Hokkaido - Kushiro    | Kushiro          | Teshikaga             | Akankohan              | Shiranuka             | —                    |
+| Toyama                | Toyama           | Takaoka               | Kurobe                 | Uozu                  | —                    |
+| Yamanashi             | Kofu             | Fujiyoshida           | Otsuki                 | Nirasaki              | Fujikawaguchiko      |
+| Wakayama              | Wakayama         | Tanabe                | Shingu                 | Koya                  | Gobo                 |
+| Tokyo                 | Shinjuku         | Hachioji              | Tachikawa              | Machida               | Ome                  |
+| Yamagata              | Yamagata         | Tsuruoka              | Sakata                 | Yonezawa              | —                    |
+| Tochigi               | Utsunomiya       | Nikko                 | Nasushiobara           | Oyama                 | Ashikaga             |
 
 _(some of the location like Kagawa, Kochi, and Ehime only have 4 locations, so `location_id` 4 does not
 exist for those.)_

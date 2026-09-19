@@ -170,6 +170,34 @@ Index,Prefecture/Region,Town,Latitude,Longitude
 01,Nara,Gojo,34.3608,135.7003
 02,Nara,Kamikitayama,34.1500,135.9500
 03,Nara,Uda (Oouda),34.5089,135.9328
+00,Tokyo,Shinjuku,35.6938,139.7034
+01,Tokyo,Hachioji,35.6664,139.3160
+02,Tokyo,Tachikawa,35.6983,139.4137
+03,Tokyo,Machida,35.5487,139.4467
+04,Tokyo,Ome,35.7878,139.2756
+00,Yamagata,Yamagata,38.2405,140.3634
+01,Yamagata,Tsuruoka,38.7272,139.8268
+02,Yamagata,Sakata,38.9144,139.8364
+03,Yamagata,Yonezawa,37.9222,140.1167
+00,Tochigi,Utsunomiya,36.5551,139.8828
+01,Tochigi,Nikko,36.7199,139.6982
+02,Tochigi,Nasushiobara,36.9628,140.0461
+03,Tochigi,Oyama,36.3145,139.8004
+04,Tochigi,Ashikaga,36.3406,139.4497
+00,Toyama,Toyama,36.6953,137.2114
+01,Toyama,Takaoka,36.7546,137.0259
+02,Toyama,Kurobe,36.8719,137.4412
+03,Toyama,Uozu,36.8281,137.4033
+00,Yamanashi,Kofu,35.6642,138.5684
+01,Yamanashi,Fujiyoshida,35.4878,138.8075
+02,Yamanashi,Otsuki,35.6117,138.9400
+03,Yamanashi,Nirasaki,35.7083,138.4553
+04,Yamanashi,Fujikawaguchiko,35.5122,138.7514
+00,Wakayama,Wakayama,34.2261,135.1675
+01,Wakayama,Tanabe,33.7333,135.3778
+02,Wakayama,Shingu,33.7247,135.9872
+03,Wakayama,Koya,34.2131,135.5858
+04,Wakayama,Gobo,33.8894,135.1508
 00,Hokkaido - Ishikari,Sapporo,43.0642,141.3469
 01,Hokkaido - Ishikari,Chitose,42.8236,141.6528
 02,Hokkaido - Ishikari,Shinshinotsu,43.2833,141.5667
