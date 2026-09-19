@@ -14,7 +14,7 @@ Reference for ML / preprocessing: which raw data fields feed into which disaster
 
 | Output | Data Source | Fields Used |
 |---|---|---|
-| **Rain** | Open-Meteo (daily + hourly) | `rain_sum (mm)`, `precipitation_hours (h)`, `precipitation_sum (mm)`,`relative_humidity_2m (%)`, `cloud_cover (%)`, `weather_code` |
+| **Rain** | Open-Meteo (daily + hourly) | `rain_sum (mm)`, `precipitation_hours (h)`, `precipitation_sum (mm)`,`relative_humidity_2m (%)`, `cloud_cover (%)`, `weather_code` _humidity, cloud and weather are hourly based (let's think how to make it daily based)_ |
 | **Wind** | Open-Meteo (daily) | `wind_speed_10m_max (km/h)`, `wind_gusts_10m_max (km/h)` |
 | **Temp** | Open-Meteo (daily) | `temperature_2m_max (°C)`, `temperature_2m_min (°C)` |
 
