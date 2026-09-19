@@ -7,14 +7,14 @@ Reference for ML / preprocessing: which raw data fields feed into which disaster
 | Output | Data Source | Fields Used | Notes |
 |---|---|---|---|
 | **Flood** | Open-Meteo (River Discharge) | `river_discharge`, `river_discharge_mean`, `river_discharge_median`, `river_discharge_max`, `river_discharge_p75`, `river_discharge_member01`–`member50` (all 50 ensemble members) | Also pull in `rain_sum (mm)` from the daily table as a supporting predictor |
-| **Snow** | Open-Meteo + JMA | `snowfall_sum (cm)` (Open-Meteo, daily) | if want, can pull in JMA `snow_fall` for accuracy/validation. |
+| **Snow** | Open-Meteo + JMA | `snowfall_sum (cm)` (Open-Meteo, daily) | if want, can pull in JMA `snow_fall` for accuracy/validation. But i dont recommend "too much data ler" |
 | **Typhoon** | Hui Ting's dataset + Open-Meteo | Hui Ting's dataset (typhoon-specific fields) + `wind_speed_10m_max (km/h)`, `wind_gusts_10m_max (km/h)` 
 
 ## 2. Weather-Based Design Outputs
 
 | Output | Data Source | Fields Used |
 |---|---|---|
-| **Rain** | Open-Meteo (daily + hourly) | `rain_sum (mm)`, `precipitation_hours (h)`, `precipitation_sum (mm)`,`relative_humidity_2m (%)`, `cloud_cover (%)`, `weather_code` |
+| **Rain** | Open-Meteo (daily + hourly) | `rain_sum (mm)`, `precipitation_hours (h)`, `precipitation_sum (mm)`,`relative_humidity_2m (%)`, `cloud_cover (%)`, `weather_code` _humidity, cloud and weather are hourly based (let's think how to make it daily based)_ |
 | **Wind** | Open-Meteo (daily) | `wind_speed_10m_max (km/h)`, `wind_gusts_10m_max (km/h)` |
 | **Temp** | Open-Meteo (daily) | `temperature_2m_max (°C)`, `temperature_2m_min (°C)` |
 
