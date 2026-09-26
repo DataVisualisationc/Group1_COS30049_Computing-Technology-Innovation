@@ -29,3 +29,6 @@ Reference for ML / preprocessing: which raw data fields feed into which disaster
 
 ### Daily Table
 `location_id`, `time`, `temperature_2m_max (°C)`, `temperature_2m_min (°C)`, `wind_speed_10m_max (km/h)`, `wind_gusts_10m_max (km/h)`, `snowfall_sum (cm)`, `rain_sum (mm)`, `precipitation_hours (h)`, `precipitation_sum (mm)`
+
+
+
