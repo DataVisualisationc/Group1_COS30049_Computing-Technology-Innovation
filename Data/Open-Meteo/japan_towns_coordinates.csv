@@ -1,6 +1,6 @@
 Index,Prefecture/Region,Town,Latitude,Longitude
 00,Yamaguchi,Shimonoseki,33.9578,130.9414
-01,Yamaguchi,Hagi,34.4084,131.3990
+01,Yamaguchi,Hagi,34.4084,131.399
 02,Yamaguchi,Iwakuni,34.1667,132.2167
 03,Yamaguchi,Yamaguchi,34.1785,131.4737
 04,Yamaguchi,Ube,33.9515,131.2467
@@ -8,12 +8,12 @@ Index,Prefecture/Region,Town,Latitude,Longitude
 01,Miyazaki,Nobeoka,32.5781,131.6667
 02,Miyazaki,Takachiho,32.7108,131.3097
 03,Miyazaki,Kushima,31.4614,131.2311
-04,Miyazaki,Kobayashi,32.0000,130.9833
+04,Miyazaki,Kobayashi,32,130.9833
 00,Kagoshima,Kagoshima,31.5966,130.5571
 01,Kagoshima,Yakushima,30.3853,130.5697
 02,Kagoshima,Naze (Amami),28.3775,129.4933
 03,Kagoshima,Makurazaki,31.2667,130.2833
-04,Kagoshima,Ibusuki,31.2333,130.6500
+04,Kagoshima,Ibusuki,31.2333,130.65
 00,Oita,Oita,33.2382,131.6126
 01,Oita,Nakatsu,33.5975,131.1875
 02,Oita,Saeki,32.9603,131.8994
@@ -28,16 +28,16 @@ Index,Prefecture/Region,Town,Latitude,Longitude
 01,Kumamoto,Amakusa (Hondo),32.4581,130.1989
 02,Kumamoto,Hitoyoshi,32.2103,130.7597
 03,Kumamoto,Aso,32.9564,131.0844
-04,Kumamoto,Minamata,32.2167,130.4000
+04,Kumamoto,Minamata,32.2167,130.4
 00,Saga,Saga,33.2494,130.2989
-01,Saga,Karatsu,33.4500,129.9694
+01,Saga,Karatsu,33.45,129.9694
 02,Saga,Imari,33.2667,129.8833
 03,Saga,Ureshino,33.1167,129.9833
 04,Saga,Tosu,33.3667,130.5083
 00,Nagasaki,Nagasaki,32.7503,129.8779
 01,Nagasaki,Sasebo,33.1592,129.7228
-02,Nagasaki,Hirado,33.3667,129.5500
-03,Nagasaki,Tsushima (Izuhara),34.2000,129.2833
+02,Nagasaki,Hirado,33.3667,129.55
+03,Nagasaki,Tsushima (Izuhara),34.2,129.2833
 04,Nagasaki,Fukue (Goto Islands),32.6961,128.8394
 00,Okinawa,Naha,26.2124,127.6809
 01,Okinawa,Ishigakishima,24.3448,124.1572
@@ -58,7 +58,7 @@ Index,Prefecture/Region,Town,Latitude,Longitude
 02,Kochi,Sukumo,32.9354,132.7325
 03,Kochi,Aki,33.5017,133.9086
 00,Ehime,Matsuyama,33.8392,132.7658
-01,Ehime,Uwajima,33.2233,132.5600
+01,Ehime,Uwajima,33.2233,132.56
 02,Ehime,Niihama,33.9603,133.2836
 03,Ehime,Imabari,34.0656,132.9978
 00,Hiroshima,Hiroshima,34.3853,132.4553
@@ -66,7 +66,7 @@ Index,Prefecture/Region,Town,Latitude,Longitude
 02,Hiroshima,Shoubara,34.8578,133.0203
 03,Hiroshima,Kure,34.2492,132.5656
 00,Kyoto,Kyoto,35.0116,135.7681
-01,Kyoto,Miyazu,35.5333,135.2000
+01,Kyoto,Miyazu,35.5333,135.2
 02,Kyoto,Fukuchiyama,35.2967,135.1281
 03,Kyoto,Kyotanabe,34.8144,135.7683
 00,Hyogo,Kobe,34.6901,135.1955
@@ -83,11 +83,11 @@ Index,Prefecture/Region,Town,Latitude,Longitude
 03,Tottori,Chizu,35.1958,134.3625
 00,Okayama,Okayama,34.6551,133.9195
 01,Okayama,Tsuyama,35.0658,134.0044
-02,Okayama,Kasaoka,34.5000,133.4667
-03,Okayama,Tamano,34.5000,133.9500
+02,Okayama,Kasaoka,34.5,133.4667
+03,Okayama,Tamano,34.5,133.95
 00,Osaka,Osaka,34.6937,135.5023
 01,Osaka,Toyonaka,34.7815,135.4703
-02,Osaka,Hirakata,34.8150,135.6497
+02,Osaka,Hirakata,34.815,135.6497
 03,Osaka,Sakai,34.5732,135.4831
 04,Osaka,Kumatori,34.4333,135.3667
 00,Chiba,Chiba,35.6073,140.1063
@@ -100,30 +100,30 @@ Index,Prefecture/Region,Town,Latitude,Longitude
 03,Gunma,Tatebayashi,36.2456,139.5389
 00,Aichi,Nagoya,35.1815,136.9066
 01,Aichi,Toyohashi,34.7692,137.3917
-02,Aichi,Minamichita,34.6167,137.0000
+02,Aichi,Minamichita,34.6167,137
 03,Aichi,Toyota,35.0833,137.1667
 00,Gifu,Gifu,35.4233,136.7606
 01,Gifu,Gujo Hachiman,35.7167,136.9667
 02,Gifu,Nakatsugawa,35.4939,137.5019
 03,Gifu,Shirakawa-go,36.2583,136.9033
 00,Ishikawa,Kanazawa,36.5613,136.6562
-01,Ishikawa,Suzu,37.4500,137.2667
+01,Ishikawa,Suzu,37.45,137.2667
 02,Ishikawa,Komatsu,36.4064,136.4458
 03,Ishikawa,Nanao,37.0472,136.9636
 00,Fukui,Fukui,36.0652,136.2216
 01,Fukui,Tsuruga,35.6453,136.0553
 02,Fukui,Obama,35.4947,135.7439
 03,Fukui,Oono,35.9833,136.4833
-00,Aomori,Aomori,40.8244,140.7400
+00,Aomori,Aomori,40.8244,140.74
 01,Aomori,Hachinohe,40.5122,141.4886
 02,Aomori,Hirosaki,40.6031,140.4642
 03,Aomori,Mutsu,41.2933,141.2133
 00,Akita,Akita,39.7186,140.1024
 01,Akita,Oodate,40.2717,140.5622
-02,Akita,Yuzawa,39.1750,140.4917
-03,Akita,Oga,39.9167,139.8500
-00,Fukushima,Fukushima,37.7500,140.4678
-01,Fukushima,Aizuwakamatsu,37.4950,139.9297
+02,Akita,Yuzawa,39.175,140.4917
+03,Akita,Oga,39.9167,139.85
+00,Fukushima,Fukushima,37.75,140.4678
+01,Fukushima,Aizuwakamatsu,37.495,139.9297
 02,Fukushima,Souma,37.8014,140.9433
 03,Fukushima,Shirakawa,37.1167,140.2167
 00,Ibaraki,Mito,36.3418,140.4468
@@ -136,22 +136,22 @@ Index,Prefecture/Region,Town,Latitude,Longitude
 03,Iwate,Kuji,40.1942,141.7736
 00,Miyagi,Sendai,38.2682,140.8694
 01,Miyagi,Kesennuma,38.9081,141.5697
-02,Miyagi,Zao,38.1500,140.6167
-03,Miyagi,Marumori,37.9833,140.7500
+02,Miyagi,Zao,38.15,140.6167
+03,Miyagi,Marumori,37.9833,140.75
 00,Saitama,Saitama,35.8617,139.6455
 01,Saitama,Chichibu,35.9906,139.0864
 02,Saitama,Kumagaya,36.1472,139.3886
 03,Saitama,Koshigaya,35.8897,139.7906
-00,Kanagawa,Yokohama,35.4437,139.6380
+00,Kanagawa,Yokohama,35.4437,139.638
 01,Kanagawa,Odawara,35.2556,139.1522
 02,Kanagawa,Miura,35.1439,139.6183
 03,Kanagawa,Ebina,35.4356,139.3881
 00,Shizuoka,Shizuoka,34.9756,138.3828
 01,Shizuoka,Hamamatsu,34.7108,137.7261
 02,Shizuoka,Atami,35.0958,139.0733
-03,Shizuoka,Matsuzaki,34.7500,138.7667
-00,Nagano,Nagano,36.6513,138.1810
-01,Nagano,Matsumoto,36.2381,137.9720
+03,Shizuoka,Matsuzaki,34.75,138.7667
+00,Nagano,Nagano,36.6513,138.181
+01,Nagano,Matsumoto,36.2381,137.972
 02,Nagano,Iida,35.5153,137.8214
 03,Nagano,Karuizawa,36.3485,138.6347
 00,Niigata,Niigata,37.9161,139.0364
@@ -161,17 +161,17 @@ Index,Prefecture/Region,Town,Latitude,Longitude
 00,Shiga,Otsu,35.0044,135.8686
 01,Shiga,Hikone,35.2744,136.2594
 02,Shiga,Nagahama,35.3831,136.2797
-03,Shiga,Shigaraki,34.8500,136.1667
+03,Shiga,Shigaraki,34.85,136.1667
 00,Mie,Tsu,34.7304,136.5086
 01,Mie,Kuwana,35.0667,136.6833
 02,Mie,Kumano,33.8886,136.0994
 03,Mie,Toba,34.4864,136.8422
 00,Nara,Nara,34.6851,135.8048
 01,Nara,Gojo,34.3608,135.7003
-02,Nara,Kamikitayama,34.1500,135.9500
+02,Nara,Kamikitayama,34.15,135.95
 03,Nara,Uda (Oouda),34.5089,135.9328
 00,Tokyo,Shinjuku,35.6938,139.7034
-01,Tokyo,Hachioji,35.6664,139.3160
+01,Tokyo,Hachioji,35.6664,139.316
 02,Tokyo,Tachikawa,35.6983,139.4137
 03,Tokyo,Machida,35.5487,139.4467
 04,Tokyo,Ome,35.7878,139.2756
@@ -190,7 +190,7 @@ Index,Prefecture/Region,Town,Latitude,Longitude
 03,Toyama,Uozu,36.8281,137.4033
 00,Yamanashi,Kofu,35.6642,138.5684
 01,Yamanashi,Fujiyoshida,35.4878,138.8075
-02,Yamanashi,Otsuki,35.6117,138.9400
+02,Yamanashi,Otsuki,35.6117,138.94
 03,Yamanashi,Nirasaki,35.7083,138.4553
 04,Yamanashi,Fujikawaguchiko,35.5122,138.7514
 00,Wakayama,Wakayama,34.2261,135.1675
@@ -201,56 +201,56 @@ Index,Prefecture/Region,Town,Latitude,Longitude
 00,Hokkaido - Ishikari,Sapporo,43.0642,141.3469
 01,Hokkaido - Ishikari,Chitose,42.8236,141.6528
 02,Hokkaido - Ishikari,Shinshinotsu,43.2833,141.5667
-03,Hokkaido - Ishikari,Hamamasu,43.3667,141.3500
+03,Hokkaido - Ishikari,Hamamasu,43.3667,141.35
 00,Hokkaido - Shiribeshi,Otaru,43.1907,140.9947
 01,Hokkaido - Shiribeshi,Kutchan,42.9022,140.7614
 02,Hokkaido - Shiribeshi,Suttsu,42.7969,140.2172
 03,Hokkaido - Shiribeshi,Kimobetsu,42.7333,140.8833
-00,Hokkaido - Oshima,Hakodate,41.7687,140.7288
+00,Hokkaido-Oshima,Hakodate,41.7687,140.7288
 01,Hokkaido - Oshima,Matsumae,41.4306,140.1078
 02,Hokkaido - Oshima,Mori,42.1058,140.5744
 03,Hokkaido - Oshima,Kikonai,41.6667,140.4333
-00,Hokkaido - Soya,Wakkanai,45.4156,141.6733
+00,Hokkaido-Soya,Wakkanai,45.4156,141.6733
 01,Hokkaido - Soya,Kafuka (Rebun Island),45.3011,141.0392
 02,Hokkaido - Soya,Hamatonbetsu,45.0667,141.7333
 03,Hokkaido - Soya,Esashi (Kitamiesashi),44.9333,142.5833
-00,Hokkaido - Kamikawa,Asahikawa,43.7706,142.3650
+00,Hokkaido-Kamikawa,Asahikawa,43.7706,142.365
 01,Hokkaido - Kamikawa,Furano,43.3439,142.3831
 02,Hokkaido - Kamikawa,Nayoro,44.3583,142.4589
-03,Hokkaido - Kamikawa,Shimukappu,43.1500,142.7667
-00,Hokkaido - Hidaka,Urakawa,42.1633,142.7789
+03,Hokkaido - Kamikawa,Shimukappu,43.15,142.7667
+00,Hokkaido-Hidaka,Urakawa,42.1633,142.7789
 01,Hokkaido - Hidaka,Shizunai (Shinhidaka),42.3339,142.3608
 02,Hokkaido - Hidaka,Erimomisaki,41.9236,143.2333
 03,Hokkaido - Hidaka,Hidakamonbetsu,42.5333,142.0333
-00,Hokkaido - Rumoi,Rumoi,43.9411,141.6428
+00,Hokkaido-Rumoi,Rumoi,43.9411,141.6428
 01,Hokkaido - Rumoi,Enbetsu,44.7333,141.7833
 02,Hokkaido - Rumoi,Mashike,43.8544,141.5136
-03,Hokkaido - Rumoi,Shosanbetsu,44.3000,141.8000
-00,Hokkaido - Sorachi,Iwamizawa,43.2000,141.7833
+03,Hokkaido - Rumoi,Shosanbetsu,44.3,141.8
+00,Hokkaido-Sorachi,Iwamizawa,43.2,141.7833
 01,Hokkaido - Sorachi,Takikawa,43.5497,141.9114
 02,Hokkaido - Sorachi,Yubari,43.0417,141.9756
-03,Hokkaido - Sorachi,Naganuma,43.0700,141.7000
-00,Hokkaido - Iburi,Tomakomai,42.6376,141.6044
+03,Hokkaido - Sorachi,Naganuma,43.07,141.7
+00,Hokkaido-Iburi,Tomakomai,42.6376,141.6044
 01,Hokkaido - Iburi,Muroran,42.3153,140.9736
-02,Hokkaido - Iburi,Date,42.4833,140.8500
+02,Hokkaido - Iburi,Date,42.4833,140.85
 03,Hokkaido - Iburi,Atsuma,42.7333,141.9667
-00,Hokkaido - Hiyama,Esashi (Hiyama),41.8697,140.1281
-01,Hokkaido - Hiyama,Setana,42.4500,139.8500
-02,Hokkaido - Hiyama,Okushiri Island,42.1500,139.5167
-03,Hokkaido - Hiyama,Imagane,42.0500,140.1167
-00,Hokkaido - Tokachi,Obihiro,42.9237,143.1964
-01,Hokkaido - Tokachi,Ikeda,42.9333,143.4500
+00,Hokkaido-Hiyama,Esashi (Hiyama),41.8697,140.1281
+01,Hokkaido - Hiyama,Setana,42.45,139.85
+02,Hokkaido - Hiyama,Okushiri Island,42.15,139.5167
+03,Hokkaido - Hiyama,Imagane,42.05,140.1167
+00,Hokkaido-Tokachi,Obihiro,42.9237,143.1964
+01,Hokkaido - Tokachi,Ikeda,42.9333,143.45
 02,Hokkaido - Tokachi,Ashoro,43.2333,143.5167
 03,Hokkaido - Tokachi,Hiroo,42.2889,143.3333
-00,Hokkaido - Okhotsk,Abashiri,44.0206,144.2733
+00,Hokkaido-Okhotsk,Abashiri,44.0206,144.2733
 01,Hokkaido - Okhotsk,Kitami,43.8028,143.8942
 02,Hokkaido - Okhotsk,Monbetsu,44.3536,143.3536
 03,Hokkaido - Okhotsk,Shari,43.9092,144.6683
-00,Hokkaido - Nemuro,Nemuro,43.3306,145.5828
+00,Hokkaido-Nemuro,Nemuro,43.3306,145.5828
 01,Hokkaido - Nemuro,Rausu,44.0389,145.1236
 02,Hokkaido - Nemuro,Bekkai,43.4333,145.1167
 03,Hokkaido - Nemuro,Nakashibetsu,43.5333,144.9667
-00,Hokkaido - Kushiro,Kushiro,42.9849,144.3820
+00,Hokkaido-Kushiro,Kushiro,42.9849,144.382
 01,Hokkaido - Kushiro,Teshikaga,43.4833,144.4167
-02,Hokkaido - Kushiro,Akankohan,43.4500,144.0500
+02,Hokkaido - Kushiro,Akankohan,43.45,144.05
 03,Hokkaido - Kushiro,Shiranuka,42.9167,143.9167
