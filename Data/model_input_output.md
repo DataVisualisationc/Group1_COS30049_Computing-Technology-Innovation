@@ -66,22 +66,20 @@ Flood occurrence severity — 3-level flag:
 
 **Input (X)**
 
-1. Day-of-year encoding (sin/cos) — (created)
-2. `shortwave_radiation_sum` — (raw)
-3. `sunshine_duration` — (raw)
-4. `daylight_duration` — (raw)
-5. `cloud_cover` — hourly, aggregate to daily — (raw)
-6. `dew_point_2m` or `relative_humidity_2m` — (raw)
-7. Lagged temp values — past-day `temperature_2m_max`/`min` — (created)
+
+1. `shortwave_radiation_sum` — (raw)
+2. `sunshine_duration` — (raw)
+3. `daylight_duration` — (raw)
+4. `cloud_cover` — hourly, aggregate to daily — (raw)
+5. `dew_point_2m` or `relative_humidity_2m` — (raw)
+
 
 **Output (y)**
 
 1. `temperature_2m_max`
 2. `temperature_2m_min`
 
-**Status / notes**
 
-- Missing: `shortwave_radiation_sum`, `sunshine_duration`, `daylight_duration`, `dew_point_2m` [will be collected soon]
 
 ---
 
