@@ -127,15 +127,11 @@ Flood occurrence severity  (3-level flag):
 - Random Forest - Good for this small dataset
 
 **Input (X)**
-1. `temperature_2m_max`
-2. `temperature_2m_min`
-3. `relative_humidity_2m_mean`
-4. `cloud_cover_mean`
-5. `surface_pressure_mean`
-6. `surface_pressure_max`
-7. `surface_pressure_min`
-8. `wind_direction_10m_dominant`
-9. `shortwave_radiation_sum`
+1. `wind_speed_10m_max`
+2. `surface_pressure_mean`
+3. `cloud_cover_mean`
+4. `relative_humidity_2m_mean`
+5. `shortwave_radiation_sum`
 
 **Output (y)**
 1. `grade` - based on this grade, we can classify
