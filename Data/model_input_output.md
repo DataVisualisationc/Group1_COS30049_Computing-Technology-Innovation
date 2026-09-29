@@ -121,32 +121,86 @@ Flood occurrence severity  (3-level flag):
 ---
 
 ## Typhoon
+
 **Machine Learning Model (Classification)**
-- Conditional Inference Tree - Another supervised decision-tree metho, can directly predict the three risk classes.
-- Classification and Regression Tree (CART) - can directly predict Low/Medium/High.
-- Random Forest - Good for this small dataset
+
+-   Random Forest
+-   CART / Decision Tree
+-   Gradient Boosting Classifier
+-   Support Vector Machine (SVM)
 
 **Input (X)**
-1. `wind_speed_10m_max`
-2. `surface_pressure_mean`
-3. `cloud_cover_mean`
-4. `relative_humidity_2m_mean`
-5. `shortwave_radiation_sum`
+
+The current classifier uses the remaining JMA and Open-Meteo features
+after leakage/unwanted columns are removed. Important retained inputs
+include:
+
+1.  `nearest_prefecture`
+2.  JMA typhoon attributes such as `grade`, `pressure`, `wind_speed`,
+    `indicator`, `dir_r50`, `r50_long`, `r50_short`, `dir_r30`,
+    `r30_long`, `r30_short`
+3.  `year`
+4.  `month`
+5.  `day`
+6.  `openmeteo_elevation`
+7.  `temperature_2m_mean`
+8.  `temperature_2m_max`
+9.  `temperature_2m_min`
+10. `relative_humidity_2m_mean`
+11. `relative_humidity_2m_max`
+12. `relative_humidity_2m_min`
+13. `dew_point_2m_mean`
+14. `dew_point_2m_max`
+15. `dew_point_2m_min`
+16. `precipitation_sum`
+17. `rain_sum`
+18. `precipitation_hours`
+19. `cloud_cover_mean`
+20. `cloud_cover_max`
+21. `cloud_cover_min`
+22. `pressure_msl_mean`
+23. `pressure_msl_max`
+24. `pressure_msl_min`
+25. `surface_pressure_mean`
+26. `surface_pressure_max`
+27. `surface_pressure_min`
+28. `wind_speed_10m_mean`
+29. `wind_speed_10m_max`
+30. `wind_speed_10m_min`
+31. `wind_gusts_10m_mean`
+32. `wind_gusts_10m_max`
+33. `wind_gusts_10m_min`
+34. `wind_direction_10m_dominant`
+35. `shortwave_radiation_sum`
+
+
+
+`nearest_prefecture` is retained as a categorical feature.
 
 **Output (y)**
-1. `grade` - based on this grade, we can classify
 
-- Low - Grade 3
-- Medium - Grade 4
-- High - Grade 5 and above
+`risk`
+
+1.  Low 
+2.  Moderate 
+3.  High 
 
 
-Example: 
-Since we know grade 3 is a "forming of a storm" we can put the risk at low. Grade 4 is Severe Tropical Storm (STS) so we can put medium and the rest are High since from JMA grading, we know typhoon starts at the grade of 5.
+**Training / testing**
 
-Reference: https://www.jma.go.jp/jma/jma-eng/jma-center/rsmc-hp-pub-eg/Besttracks/e_format_bst.html 
+
+-   Split by `landfall_event_id` rather than individual rows to prevent
+    rows from the same landfall event appearing in both sets.
+-   Numeric features: missing values are median-imputed and then
+    standardized with `StandardScaler`.
+
+
 
 **Status / notes**
-- We can only do classification for typhoon because even if we use historical data to predict the data lat long of the typhoon, the location will not show differences.
-- However, we can use historical weather to match with all the storms to predict low medium high like our flood disaster.
 
+-   The current target is no longer based on mapping JMA `grade`
+    directly to Low/Medium/High.
+-   Risk is based on the number of days before a confirmed JMA `#`
+    landfall event.
+-   `nearest_prefecture` is used because the intended interface allows
+    the user to select a prefecture.
