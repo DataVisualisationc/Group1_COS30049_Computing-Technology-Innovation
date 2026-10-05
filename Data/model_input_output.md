@@ -134,26 +134,32 @@ For example:
 
 ## Temp
 **Machine Learning Model (Regression)**
-- OLSR -assumes approximately linear relationships between radiation, sunshine, cloud cover, humidity and temperature without much preprocessing.
-
-- Gradient Boosting Regressor - Strong candidate for accurate temperature prediction from structured weather variables.
+- Multiple Linear Regression - simple and fast baseline for measuring linear relationships between the weather attributes and maximum temperature.
+- Gradient Boosting Regressor - captures nonlinear relationships between radiation, sunshine, cloud cover, dew point, seasonality, and maximum temperature.
+- HistGradientBoostingRegressor - efficient histogram-based boosting model for larger datasets while capturing nonlinear relationships.
 
 **Input (X)**
-
 
 1. `shortwave_radiation_sum` — (raw)
 2. `sunshine_duration` — (raw)
 3. `daylight_duration` — (raw)
-4. `cloud_cover` — hourly, aggregate to daily — (raw)
-5. `dew_point_2m` or `relative_humidity_2m` — (raw)
-
+4. `cloud_cover_mean` — daily mean — (raw)
+5. `dew_point_2m_mean` — daily mean — (raw)
+6. `month` — extracted from date — (created)
 
 **Output (y)**
 
-1. `temperature_2m_max`
-2. `temperature_2m_min`
+1. `temperature_2m_max` — °C
 
+**Training / testing**
 
+- Training: 2021–2025
+- Testing: 2026
+
+**Status / notes**
+
+- The Temperature model predicts only daily maximum temperature.
+- `temperature_2m_min` is no longer a prediction target.
 
 ---
 
