@@ -1,0 +1,144 @@
+﻿town_key,source_index,prefecture,town,latitude,longitude,status,rows_downloaded,start_date,end_date,error
+Yamaguchi|Shimonoseki|33.957800|130.941400,0,Yamaguchi,Shimonoseki,33.9578,130.9414,complete,1857,2021-01-01,2026-01-31,
+Yamaguchi|Hagi|34.408400|131.399000,1,Yamaguchi,Hagi,34.4084,131.399,complete,1857,2021-01-01,2026-01-31,
+Yamaguchi|Iwakuni|34.166700|132.216700,2,Yamaguchi,Iwakuni,34.1667,132.2167,complete,1857,2021-01-01,2026-01-31,
+Yamaguchi|Yamaguchi|34.178500|131.473700,3,Yamaguchi,Yamaguchi,34.1785,131.4737,complete,1857,2021-01-01,2026-01-31,
+Yamaguchi|Ube|33.951500|131.246700,4,Yamaguchi,Ube,33.9515,131.2467,complete,1857,2021-01-01,2026-01-31,
+Miyazaki|Miyazaki|31.911100|131.423900,0,Miyazaki,Miyazaki,31.9111,131.4239,complete,1857,2021-01-01,2026-01-31,
+Miyazaki|Nobeoka|32.578100|131.666700,1,Miyazaki,Nobeoka,32.5781,131.6667,complete,1857,2021-01-01,2026-01-31,
+Miyazaki|Takachiho|32.710800|131.309700,2,Miyazaki,Takachiho,32.7108,131.3097,failed,0,2021-01-01,2026-01-31,Request failed after 5 attempts: None
+Miyazaki|Kushima|31.461400|131.231100,3,Miyazaki,Kushima,31.4614,131.2311,complete,1857,2021-01-01,2026-01-31,
+Miyazaki|Kobayashi|32.000000|130.983300,4,Miyazaki,Kobayashi,32.0,130.9833,complete,1857,2021-01-01,2026-01-31,
+Kagoshima|Kagoshima|31.596600|130.557100,0,Kagoshima,Kagoshima,31.5966,130.5571,complete,1857,2021-01-01,2026-01-31,
+Kagoshima|Yakushima|30.385300|130.569700,1,Kagoshima,Yakushima,30.3853,130.5697,complete,1857,2021-01-01,2026-01-31,
+Kagoshima|Naze (Amami)|28.377500|129.493300,2,Kagoshima,Naze (Amami),28.3775,129.4933,complete,1857,2021-01-01,2026-01-31,
+Kagoshima|Makurazaki|31.266700|130.283300,3,Kagoshima,Makurazaki,31.2667,130.2833,complete,1857,2021-01-01,2026-01-31,
+Kagoshima|Ibusuki|31.233300|130.650000,4,Kagoshima,Ibusuki,31.2333,130.65,complete,1857,2021-01-01,2026-01-31,
+Oita|Oita|33.238200|131.612600,0,Oita,Oita,33.2382,131.6126,complete,1857,2021-01-01,2026-01-31,
+Oita|Nakatsu|33.597500|131.187500,1,Oita,Nakatsu,33.5975,131.1875,complete,1857,2021-01-01,2026-01-31,
+Oita|Saeki|32.960300|131.899400,2,Oita,Saeki,32.9603,131.8994,complete,1857,2021-01-01,2026-01-31,
+Oita|Hita|33.321400|130.941400,3,Oita,Hita,33.3214,130.9414,complete,1857,2021-01-01,2026-01-31,
+Oita|Beppu|33.284600|131.491400,4,Oita,Beppu,33.2846,131.4914,complete,1857,2021-01-01,2026-01-31,
+Fukuoka|Fukuoka (Hakata)|33.590400|130.401700,0,Fukuoka,Fukuoka (Hakata),33.5904,130.4017,complete,1857,2021-01-01,2026-01-31,
+Fukuoka|Kitakyushu (Yahata)|33.883400|130.875200,1,Fukuoka,Kitakyushu (Yahata),33.8834,130.8752,failed,0,2021-01-01,2026-01-31,Request failed after 5 attempts: None
+Fukuoka|Kurume|33.319600|130.508300,2,Fukuoka,Kurume,33.3196,130.5083,complete,1857,2021-01-01,2026-01-31,
+Fukuoka|Munakata|33.809100|130.546400,3,Fukuoka,Munakata,33.8091,130.5464,complete,1857,2021-01-01,2026-01-31,
+Fukuoka|Yanagawa|33.162500|130.405600,4,Fukuoka,Yanagawa,33.1625,130.4056,complete,1857,2021-01-01,2026-01-31,
+Kumamoto|Kumamoto|32.803200|130.707900,0,Kumamoto,Kumamoto,32.8032,130.7079,complete,1857,2021-01-01,2026-01-31,
+Kumamoto|Amakusa (Hondo)|32.458100|130.198900,1,Kumamoto,Amakusa (Hondo),32.4581,130.1989,complete,1857,2021-01-01,2026-01-31,
+Kumamoto|Hitoyoshi|32.210300|130.759700,2,Kumamoto,Hitoyoshi,32.2103,130.7597,complete,1857,2021-01-01,2026-01-31,
+Kumamoto|Aso|32.956400|131.084400,3,Kumamoto,Aso,32.9564,131.0844,complete,1857,2021-01-01,2026-01-31,
+Kumamoto|Minamata|32.216700|130.400000,4,Kumamoto,Minamata,32.2167,130.4,complete,1857,2021-01-01,2026-01-31,
+Saga|Saga|33.249400|130.298900,0,Saga,Saga,33.2494,130.2989,complete,1857,2021-01-01,2026-01-31,
+Saga|Karatsu|33.450000|129.969400,1,Saga,Karatsu,33.45,129.9694,complete,1857,2021-01-01,2026-01-31,
+Saga|Imari|33.266700|129.883300,2,Saga,Imari,33.2667,129.8833,complete,1857,2021-01-01,2026-01-31,
+Saga|Ureshino|33.116700|129.983300,3,Saga,Ureshino,33.1167,129.9833,complete,1857,2021-01-01,2026-01-31,
+Saga|Tosu|33.366700|130.508300,4,Saga,Tosu,33.3667,130.5083,complete,1857,2021-01-01,2026-01-31,
+Nagasaki|Nagasaki|32.750300|129.877900,0,Nagasaki,Nagasaki,32.7503,129.8779,failed,0,2021-01-01,2026-01-31,Request failed after 5 attempts: None
+Nagasaki|Sasebo|33.159200|129.722800,1,Nagasaki,Sasebo,33.1592,129.7228,complete,1857,2021-01-01,2026-01-31,
+Nagasaki|Hirado|33.366700|129.550000,2,Nagasaki,Hirado,33.3667,129.55,complete,1857,2021-01-01,2026-01-31,
+Nagasaki|Tsushima (Izuhara)|34.200000|129.283300,3,Nagasaki,Tsushima (Izuhara),34.2,129.2833,complete,1857,2021-01-01,2026-01-31,
+Nagasaki|Fukue (Goto Islands)|32.696100|128.839400,4,Nagasaki,Fukue (Goto Islands),32.6961,128.8394,complete,1857,2021-01-01,2026-01-31,
+Okinawa|Naha|26.212400|127.680900,0,Okinawa,Naha,26.2124,127.6809,complete,1857,2021-01-01,2026-01-31,
+Okinawa|Ishigakishima|24.344800|124.157200,1,Okinawa,Ishigakishima,24.3448,124.1572,complete,1857,2021-01-01,2026-01-31,
+Okinawa|Miyakoshima|24.805600|125.281400,2,Okinawa,Miyakoshima,24.8056,125.2814,complete,1857,2021-01-01,2026-01-31,
+Okinawa|Nago|26.591100|127.977300,3,Okinawa,Nago,26.5911,127.9773,complete,1857,2021-01-01,2026-01-31,
+Okinawa|Yonagunishima|24.466700|123.016700,4,Okinawa,Yonagunishima,24.4667,123.0167,complete,1857,2021-01-01,2026-01-31,
+Shimane|Matsue|35.472300|133.050500,0,Shimane,Matsue,35.4723,133.0505,complete,1857,2021-01-01,2026-01-31,
+Shimane|Hamada|34.897200|132.079400,1,Shimane,Hamada,34.8972,132.0794,complete,1857,2021-01-01,2026-01-31,
+Shimane|Oota|35.195300|132.495600,2,Shimane,Oota,35.1953,132.4956,complete,1857,2021-01-01,2026-01-31,
+Shimane|Izumo|35.367200|132.759700,3,Shimane,Izumo,35.3672,132.7597,failed,0,2021-01-01,2026-01-31,Request failed after 5 attempts: None
+Shimane|Saigo (Oki Islands)|36.205800|133.328300,4,Shimane,Saigo (Oki Islands),36.2058,133.3283,complete,1857,2021-01-01,2026-01-31,
+Kagawa|Takamatsu|34.342800|134.046600,0,Kagawa,Takamatsu,34.3428,134.0466,complete,1857,2021-01-01,2026-01-31,
+Kagawa|Tadotsu|34.276400|133.753900,1,Kagawa,Tadotsu,34.2764,133.7539,complete,1857,2021-01-01,2026-01-31,
+Kagawa|Utsumi (Higashikagawa)|34.216700|134.283300,2,Kagawa,Utsumi (Higashikagawa),34.2167,134.2833,complete,1857,2021-01-01,2026-01-31,
+Kagawa|Kounan (Marugame)|34.233300|133.816700,3,Kagawa,Kounan (Marugame),34.2333,133.8167,complete,1857,2021-01-01,2026-01-31,
+Kochi|Kouchi|33.559700|133.531100,0,Kochi,Kouchi,33.5597,133.5311,complete,1857,2021-01-01,2026-01-31,
+Kochi|Murotomisaki|33.250600|134.176400,1,Kochi,Murotomisaki,33.2506,134.1764,failed,0,2021-01-01,2026-01-31,Request failed after 5 attempts: None
+Kochi|Sukumo|32.935400|132.732500,2,Kochi,Sukumo,32.9354,132.7325,complete,1857,2021-01-01,2026-01-31,
+Kochi|Aki|33.501700|133.908600,3,Kochi,Aki,33.5017,133.9086,complete,1857,2021-01-01,2026-01-31,
+Ehime|Matsuyama|33.839200|132.765800,0,Ehime,Matsuyama,33.8392,132.7658,complete,1857,2021-01-01,2026-01-31,
+Ehime|Uwajima|33.223300|132.560000,1,Ehime,Uwajima,33.2233,132.56,failed,0,2021-01-01,2026-01-31,Request failed after 5 attempts: None
+Ehime|Niihama|33.960300|133.283600,2,Ehime,Niihama,33.9603,133.2836,complete,1857,2021-01-01,2026-01-31,
+Ehime|Imabari|34.065600|132.997800,3,Ehime,Imabari,34.0656,132.9978,complete,1857,2021-01-01,2026-01-31,
+Hiroshima|Hiroshima|34.385300|132.455300,0,Hiroshima,Hiroshima,34.3853,132.4553,complete,1857,2021-01-01,2026-01-31,
+Hiroshima|Fukuyama|34.485800|133.362500,1,Hiroshima,Fukuyama,34.4858,133.3625,complete,1857,2021-01-01,2026-01-31,
+Hiroshima|Shoubara|34.857800|133.020300,2,Hiroshima,Shoubara,34.8578,133.0203,failed,0,2021-01-01,2026-01-31,Request failed after 5 attempts: None
+Hiroshima|Kure|34.249200|132.565600,3,Hiroshima,Kure,34.2492,132.5656,complete,1857,2021-01-01,2026-01-31,
+Kyoto|Kyoto|35.011600|135.768100,0,Kyoto,Kyoto,35.0116,135.7681,complete,1857,2021-01-01,2026-01-31,
+Kyoto|Miyazu|35.533300|135.200000,1,Kyoto,Miyazu,35.5333,135.2,failed,0,2021-01-01,2026-01-31,Request failed after 5 attempts: None
+Kyoto|Fukuchiyama|35.296700|135.128100,2,Kyoto,Fukuchiyama,35.2967,135.1281,complete,1857,2021-01-01,2026-01-31,
+Kyoto|Kyotanabe|34.814400|135.768300,3,Kyoto,Kyotanabe,34.8144,135.7683,failed,0,2021-01-01,2026-01-31,Request failed after 5 attempts: None
+Hyogo|Kobe|34.690100|135.195500,0,Hyogo,Kobe,34.6901,135.1955,failed,0,2021-01-01,2026-01-31,Request failed after 5 attempts: None
+Hyogo|Toyooka|35.541100|134.823600,1,Hyogo,Toyooka,35.5411,134.8236,complete,1857,2021-01-01,2026-01-31,
+Hyogo|Himeji|34.815600|134.685300,2,Hyogo,Himeji,34.8156,134.6853,failed,0,2021-01-01,2026-01-31,Request failed after 5 attempts: None
+Hyogo|Sumoto (Awaji)|34.346700|134.898300,3,Hyogo,Sumoto (Awaji),34.3467,134.8983,failed,0,2021-01-01,2026-01-31,Request failed after 5 attempts: None
+Tokushima|Tokushima|34.065800|134.559400,0,Tokushima,Tokushima,34.0658,134.5594,failed,0,2021-01-01,2026-01-31,Request failed after 5 attempts: None
+Tokushima|Ikeda (Miyoshi)|34.048900|133.815800,1,Tokushima,Ikeda (Miyoshi),34.0489,133.8158,failed,0,2021-01-01,2026-01-31,Request failed after 5 attempts: None
+Tokushima|Hiwasa|33.733300|134.533300,2,Tokushima,Hiwasa,33.7333,134.5333,failed,0,2021-01-01,2026-01-31,Request failed after 5 attempts: None
+Tokushima|Kaiyou|33.566700|134.416700,3,Tokushima,Kaiyou,33.5667,134.4167,failed,0,2021-01-01,2026-01-31,Request failed after 5 attempts: None
+Tottori|Tottori|35.501100|134.235100,0,Tottori,Tottori,35.5011,134.2351,failed,0,2021-01-01,2026-01-31,Request failed after 5 attempts: None
+Tottori|Yonago|35.428100|133.331100,1,Tottori,Yonago,35.4281,133.3311,failed,0,2021-01-01,2026-01-31,Request failed after 5 attempts: None
+Tottori|Kurayoshi|35.430600|133.822500,2,Tottori,Kurayoshi,35.4306,133.8225,failed,0,2021-01-01,2026-01-31,Request failed after 5 attempts: None
+Tottori|Chizu|35.195800|134.362500,3,Tottori,Chizu,35.1958,134.3625,complete,1857,2021-01-01,2026-01-31,
+Okayama|Okayama|34.655100|133.919500,0,Okayama,Okayama,34.6551,133.9195,failed,0,2021-01-01,2026-01-31,Request failed after 5 attempts: None
+Miyazaki|Takachiho|32.710800|131.309700,2,Miyazaki,Takachiho,32.7108,131.3097,complete,1857,2021-01-01,2026-01-31,
+Fukuoka|Kitakyushu (Yahata)|33.883400|130.875200,1,Fukuoka,Kitakyushu (Yahata),33.8834,130.8752,complete,1857,2021-01-01,2026-01-31,
+Nagasaki|Nagasaki|32.750300|129.877900,0,Nagasaki,Nagasaki,32.7503,129.8779,complete,1857,2021-01-01,2026-01-31,
+Shimane|Izumo|35.367200|132.759700,3,Shimane,Izumo,35.3672,132.7597,complete,1857,2021-01-01,2026-01-31,
+Kochi|Murotomisaki|33.250600|134.176400,1,Kochi,Murotomisaki,33.2506,134.1764,complete,1857,2021-01-01,2026-01-31,
+Ehime|Uwajima|33.223300|132.560000,1,Ehime,Uwajima,33.2233,132.56,complete,1857,2021-01-01,2026-01-31,
+Hiroshima|Shoubara|34.857800|133.020300,2,Hiroshima,Shoubara,34.8578,133.0203,complete,1857,2021-01-01,2026-01-31,
+Kyoto|Miyazu|35.533300|135.200000,1,Kyoto,Miyazu,35.5333,135.2,complete,1857,2021-01-01,2026-01-31,
+Kyoto|Kyotanabe|34.814400|135.768300,3,Kyoto,Kyotanabe,34.8144,135.7683,complete,1857,2021-01-01,2026-01-31,
+Hyogo|Kobe|34.690100|135.195500,0,Hyogo,Kobe,34.6901,135.1955,complete,1857,2021-01-01,2026-01-31,
+Hyogo|Himeji|34.815600|134.685300,2,Hyogo,Himeji,34.8156,134.6853,complete,1857,2021-01-01,2026-01-31,
+Hyogo|Sumoto (Awaji)|34.346700|134.898300,3,Hyogo,Sumoto (Awaji),34.3467,134.8983,complete,1857,2021-01-01,2026-01-31,
+Tokushima|Tokushima|34.065800|134.559400,0,Tokushima,Tokushima,34.0658,134.5594,failed,0,2021-01-01,2026-01-31,Request failed after 5 attempts: None
+Tokushima|Ikeda (Miyoshi)|34.048900|133.815800,1,Tokushima,Ikeda (Miyoshi),34.0489,133.8158,complete,1857,2021-01-01,2026-01-31,
+Tokushima|Hiwasa|33.733300|134.533300,2,Tokushima,Hiwasa,33.7333,134.5333,complete,1857,2021-01-01,2026-01-31,
+Tokushima|Kaiyou|33.566700|134.416700,3,Tokushima,Kaiyou,33.5667,134.4167,complete,1857,2021-01-01,2026-01-31,
+Tottori|Tottori|35.501100|134.235100,0,Tottori,Tottori,35.5011,134.2351,complete,1857,2021-01-01,2026-01-31,
+Tottori|Yonago|35.428100|133.331100,1,Tottori,Yonago,35.4281,133.3311,complete,1857,2021-01-01,2026-01-31,
+Tottori|Kurayoshi|35.430600|133.822500,2,Tottori,Kurayoshi,35.4306,133.8225,complete,1857,2021-01-01,2026-01-31,
+Okayama|Okayama|34.655100|133.919500,0,Okayama,Okayama,34.6551,133.9195,complete,1857,2021-01-01,2026-01-31,
+Okayama|Tsuyama|35.065800|134.004400,1,Okayama,Tsuyama,35.0658,134.0044,complete,1857,2021-01-01,2026-01-31,
+Okayama|Kasaoka|34.500000|133.466700,2,Okayama,Kasaoka,34.5,133.4667,complete,1857,2021-01-01,2026-01-31,
+Okayama|Tamano|34.500000|133.950000,3,Okayama,Tamano,34.5,133.95,complete,1857,2021-01-01,2026-01-31,
+Osaka|Osaka|34.693700|135.502300,0,Osaka,Osaka,34.6937,135.5023,complete,1857,2021-01-01,2026-01-31,
+Osaka|Toyonaka|34.781500|135.470300,1,Osaka,Toyonaka,34.7815,135.4703,complete,1857,2021-01-01,2026-01-31,
+Osaka|Hirakata|34.815000|135.649700,2,Osaka,Hirakata,34.815,135.6497,complete,1857,2021-01-01,2026-01-31,
+Osaka|Sakai|34.573200|135.483100,3,Osaka,Sakai,34.5732,135.4831,failed,0,2021-01-01,2026-01-31,Request failed after 5 attempts: None
+Osaka|Kumatori|34.433300|135.366700,4,Osaka,Kumatori,34.4333,135.3667,complete,1857,2021-01-01,2026-01-31,
+Chiba|Chiba|35.607300|140.106300,0,Chiba,Chiba,35.6073,140.1063,complete,1857,2021-01-01,2026-01-31,
+Chiba|Choushi|35.734700|140.826700,1,Chiba,Choushi,35.7347,140.8267,complete,1857,2021-01-01,2026-01-31,
+Chiba|Tateyama|34.983300|139.866700,2,Chiba,Tateyama,34.9833,139.8667,complete,1857,2021-01-01,2026-01-31,
+Chiba|Narita|35.775800|140.318300,3,Chiba,Narita,35.7758,140.3183,complete,1857,2021-01-01,2026-01-31,
+Gunma|Maebashi|36.391100|139.060800,0,Gunma,Maebashi,36.3911,139.0608,complete,1857,2021-01-01,2026-01-31,
+Gunma|Kusatsu|36.620300|138.596400,1,Gunma,Kusatsu,36.6203,138.5964,complete,1857,2021-01-01,2026-01-31,
+Gunma|Minakami|36.733300|138.983300,2,Gunma,Minakami,36.7333,138.9833,complete,1857,2021-01-01,2026-01-31,
+Gunma|Tatebayashi|36.245600|139.538900,3,Gunma,Tatebayashi,36.2456,139.5389,complete,1857,2021-01-01,2026-01-31,
+Aichi|Nagoya|35.181500|136.906600,0,Aichi,Nagoya,35.1815,136.9066,complete,1857,2021-01-01,2026-01-31,
+Aichi|Toyohashi|34.769200|137.391700,1,Aichi,Toyohashi,34.7692,137.3917,complete,1857,2021-01-01,2026-01-31,
+Aichi|Minamichita|34.616700|137.000000,2,Aichi,Minamichita,34.6167,137.0,complete,1857,2021-01-01,2026-01-31,
+Aichi|Toyota|35.083300|137.166700,3,Aichi,Toyota,35.0833,137.1667,complete,1857,2021-01-01,2026-01-31,
+Gifu|Gifu|35.423300|136.760600,0,Gifu,Gifu,35.4233,136.7606,complete,1857,2021-01-01,2026-01-31,
+Gifu|Gujo Hachiman|35.716700|136.966700,1,Gifu,Gujo Hachiman,35.7167,136.9667,complete,1857,2021-01-01,2026-01-31,
+Gifu|Nakatsugawa|35.493900|137.501900,2,Gifu,Nakatsugawa,35.4939,137.5019,complete,1857,2021-01-01,2026-01-31,
+Gifu|Shirakawa-go|36.258300|136.903300,3,Gifu,Shirakawa-go,36.2583,136.9033,complete,1857,2021-01-01,2026-01-31,
+Ishikawa|Kanazawa|36.561300|136.656200,0,Ishikawa,Kanazawa,36.5613,136.6562,complete,1857,2021-01-01,2026-01-31,
+Ishikawa|Suzu|37.450000|137.266700,1,Ishikawa,Suzu,37.45,137.2667,complete,1857,2021-01-01,2026-01-31,
+Ishikawa|Komatsu|36.406400|136.445800,2,Ishikawa,Komatsu,36.4064,136.4458,failed,0,2021-01-01,2026-01-31,Request failed after 5 attempts: None
+Ishikawa|Nanao|37.047200|136.963600,3,Ishikawa,Nanao,37.0472,136.9636,complete,1857,2021-01-01,2026-01-31,
+Fukui|Fukui|36.065200|136.221600,0,Fukui,Fukui,36.0652,136.2216,complete,1857,2021-01-01,2026-01-31,
+Fukui|Tsuruga|35.645300|136.055300,1,Fukui,Tsuruga,35.6453,136.0553,complete,1857,2021-01-01,2026-01-31,
+Fukui|Obama|35.494700|135.743900,2,Fukui,Obama,35.4947,135.7439,complete,1857,2021-01-01,2026-01-31,
+Fukui|Oono|35.983300|136.483300,3,Fukui,Oono,35.9833,136.4833,complete,1857,2021-01-01,2026-01-31,
+Aomori|Aomori|40.824400|140.740000,0,Aomori,Aomori,40.8244,140.74,failed,0,2021-01-01,2026-01-31,Request failed after 5 attempts: None
+Aomori|Hachinohe|40.512200|141.488600,1,Aomori,Hachinohe,40.5122,141.4886,failed,0,2021-01-01,2026-01-31,Request failed after 5 attempts: None
+Aomori|Hirosaki|40.603100|140.464200,2,Aomori,Hirosaki,40.6031,140.4642,failed,0,2021-01-01,2026-01-31,Request failed after 5 attempts: None
+Aomori|Mutsu|41.293300|141.213300,3,Aomori,Mutsu,41.2933,141.2133,failed,0,2021-01-01,2026-01-31,Request failed after 5 attempts: None
+Akita|Akita|39.718600|140.102400,0,Akita,Akita,39.7186,140.1024,failed,0,2021-01-01,2026-01-31,Request failed after 5 attempts: None
+Akita|Oodate|40.271700|140.562200,1,Akita,Oodate,40.2717,140.5622,complete,1857,2021-01-01,2026-01-31,
+Akita|Yuzawa|39.175000|140.491700,2,Akita,Yuzawa,39.175,140.4917,failed,0,2021-01-01,2026-01-31,Request failed after 5 attempts: None
+Tokushima|Tokushima|34.065800|134.559400,0,Tokushima,Tokushima,34.0658,134.5594,failed,0,2021-01-01,2026-01-31,Request failed after 5 attempts: None
