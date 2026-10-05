@@ -1,0 +1,31 @@
+﻿town_key,source_index,prefecture,town,latitude,longitude,error
+Miyazaki|Takachiho|32.710800|131.309700,2,Miyazaki,Takachiho,32.7108,131.3097,Request failed after 5 attempts: None
+Fukuoka|Kitakyushu (Yahata)|33.883400|130.875200,1,Fukuoka,Kitakyushu (Yahata),33.8834,130.8752,Request failed after 5 attempts: None
+Nagasaki|Nagasaki|32.750300|129.877900,0,Nagasaki,Nagasaki,32.7503,129.8779,Request failed after 5 attempts: None
+Shimane|Izumo|35.367200|132.759700,3,Shimane,Izumo,35.3672,132.7597,Request failed after 5 attempts: None
+Kochi|Murotomisaki|33.250600|134.176400,1,Kochi,Murotomisaki,33.2506,134.1764,Request failed after 5 attempts: None
+Ehime|Uwajima|33.223300|132.560000,1,Ehime,Uwajima,33.2233,132.56,Request failed after 5 attempts: None
+Hiroshima|Shoubara|34.857800|133.020300,2,Hiroshima,Shoubara,34.8578,133.0203,Request failed after 5 attempts: None
+Kyoto|Miyazu|35.533300|135.200000,1,Kyoto,Miyazu,35.5333,135.2,Request failed after 5 attempts: None
+Kyoto|Kyotanabe|34.814400|135.768300,3,Kyoto,Kyotanabe,34.8144,135.7683,Request failed after 5 attempts: None
+Hyogo|Kobe|34.690100|135.195500,0,Hyogo,Kobe,34.6901,135.1955,Request failed after 5 attempts: None
+Hyogo|Himeji|34.815600|134.685300,2,Hyogo,Himeji,34.8156,134.6853,Request failed after 5 attempts: None
+Hyogo|Sumoto (Awaji)|34.346700|134.898300,3,Hyogo,Sumoto (Awaji),34.3467,134.8983,Request failed after 5 attempts: None
+Tokushima|Tokushima|34.065800|134.559400,0,Tokushima,Tokushima,34.0658,134.5594,Request failed after 5 attempts: None
+Tokushima|Ikeda (Miyoshi)|34.048900|133.815800,1,Tokushima,Ikeda (Miyoshi),34.0489,133.8158,Request failed after 5 attempts: None
+Tokushima|Hiwasa|33.733300|134.533300,2,Tokushima,Hiwasa,33.7333,134.5333,Request failed after 5 attempts: None
+Tokushima|Kaiyou|33.566700|134.416700,3,Tokushima,Kaiyou,33.5667,134.4167,Request failed after 5 attempts: None
+Tottori|Tottori|35.501100|134.235100,0,Tottori,Tottori,35.5011,134.2351,Request failed after 5 attempts: None
+Tottori|Yonago|35.428100|133.331100,1,Tottori,Yonago,35.4281,133.3311,Request failed after 5 attempts: None
+Tottori|Kurayoshi|35.430600|133.822500,2,Tottori,Kurayoshi,35.4306,133.8225,Request failed after 5 attempts: None
+Okayama|Okayama|34.655100|133.919500,0,Okayama,Okayama,34.6551,133.9195,Request failed after 5 attempts: None
+Tokushima|Tokushima|34.065800|134.559400,0,Tokushima,Tokushima,34.0658,134.5594,Request failed after 5 attempts: None
+Osaka|Sakai|34.573200|135.483100,3,Osaka,Sakai,34.5732,135.4831,Request failed after 5 attempts: None
+Ishikawa|Komatsu|36.406400|136.445800,2,Ishikawa,Komatsu,36.4064,136.4458,Request failed after 5 attempts: None
+Aomori|Aomori|40.824400|140.740000,0,Aomori,Aomori,40.8244,140.74,Request failed after 5 attempts: None
+Aomori|Hachinohe|40.512200|141.488600,1,Aomori,Hachinohe,40.5122,141.4886,Request failed after 5 attempts: None
+Aomori|Hirosaki|40.603100|140.464200,2,Aomori,Hirosaki,40.6031,140.4642,Request failed after 5 attempts: None
+Aomori|Mutsu|41.293300|141.213300,3,Aomori,Mutsu,41.2933,141.2133,Request failed after 5 attempts: None
+Akita|Akita|39.718600|140.102400,0,Akita,Akita,39.7186,140.1024,Request failed after 5 attempts: None
+Akita|Yuzawa|39.175000|140.491700,2,Akita,Yuzawa,39.175,140.4917,Request failed after 5 attempts: None
+Tokushima|Tokushima|34.065800|134.559400,0,Tokushima,Tokushima,34.0658,134.5594,Request failed after 5 attempts: None
