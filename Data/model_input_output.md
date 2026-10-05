@@ -34,47 +34,101 @@ Flood occurrence severity  (3-level flag):
 ---
 
 ## Rain
-**Machine Learning Model (Regression)**
-- Gradient Boosting Regressor - can capture complex interactions between humidity/cloud/weather features.
-- Linear Regression -  can test
-- Random Forest - Always good
+**Machine Learning Model (Classification)**
+- Gradient Boosting Classifier - can capture nonlinear interactions between the daily weather attributes.
+- Random Forest Classifier - robust ensemble model and a strong general baseline.
+- CART / Decision Tree - simple and interpretable classification baseline.
+- Support Vector Machine (SVM) - useful for comparing a different classification approach.
 
 **Input (X)**
 
-1. `relative_humidity_2m` — hourly, aggregate to daily (mean) — (raw)
-2. `cloud_cover` — hourly, aggregate to daily (mean) — (raw)
-3. `weather_code` — hourly, needs a daily conversion method — (raw, aggregation )
+1. `temperature_2m_max` — (raw)
+2. `temperature_2m_min` — (raw)
+3. `relative_humidity_2m_mean` — daily mean — (raw)
+4. `dew_point_2m_mean` — daily mean — (raw)
+5. `cloud_cover_mean` — daily mean — (raw)
+6. `pressure_msl_mean` — daily mean — (raw)
+7. `wind_speed_10m_max` — (raw)
+8. `shortwave_radiation_sum` — (raw)
+9. `month` — extracted from date — (created)
 
 **Output (y)**
 
-1. `rain_sum`
-2. `precipitation_sum`
-3. `precipitation_hours`
+`rain_class` — created from daily `rain_sum`:
+
+1. No/Minimal Rain — `< 1 mm`
+2. Low — `1 to < 10 mm`
+3. Moderate — `10 to < 100 mm`
+4. High — `>= 100 mm`
 
 **Status / notes**
 
-- `weather_code` is categorical (WMO codes) — averaging doesn't work. Use daily mode, or a derived proportion (e.g., % of hours reporting rain-type codes) instead.
-- `rain_sum` and `precipitation_sum` will be highly correlated (precipitation = rain + snow) — check for redundancy before treating as 3 independent targets.
+- `rain_sum` is used to create `rain_class`, so it must **not** be included as an input feature because this would cause target leakage.
+- The model predicts a rainfall category rather than an exact rainfall amount.
+- The rainfall thresholds above are project-defined daily classes.
 
 ---
 
 ## Wind
 **Machine Learning Model (Regression)**
-- MARS - can handle nonlinear relationships by creating piecewise regression functions.
-- Multiple Linear Regression - can show whether pressure changes have a relatively simple relationship with wind speed.
-
+- Multiple Linear Regression - simple and fast baseline for measuring the relationship between pressure-related variables and wind speed.
+- Gradient Boosting Regressor - captures nonlinear relationships between pressure, pressure changes, wind direction, and wind speed.
+- HistGradientBoostingRegressor - histogram-based gradient boosting model designed to train efficiently on larger datasets while capturing nonlinear relationships.
 
 **Input (X)**
 
-1. `surface_pressure_mean`, `surface_pressure_max` — daily aggregations, pull directly (no hourly aggregation needed) — (raw)
-2. `surface_pressure_min` — if available, more diagnostic than mean/max for detecting approaching low-pressure systems — (raw)
-3. `pressure_change` — day-over-day delta (today's pressure minus yesterday's) — (created)
-4. `wind_direction_10m_dominant` — (raw)
+1. `surface_pressure_mean` — (raw)
+2. `surface_pressure_max` — (raw)
+3. `surface_pressure_min` — (raw)
+4. `pressure_change` — today's mean surface pressure minus the previous day's mean surface pressure — (created)
+5. `wind_direction_10m_dominant` — (raw)
 
 **Output (y)**
 
-1. `wind_speed_10m_max`
-2. `wind_gusts_10m_max`
+1. `wind_speed_10m_max` — km/h
+
+**Status / notes**
+
+- MARS was removed because the required `pyearth/Earth` package is unavailable in the current Python environment.
+- Random Forest was not selected because it is comparatively slow and can create large model files for this dataset.
+- `HistGradientBoostingRegressor` is used as the more efficient third regression model.
+
+---
+
+## LSTM - Future Input Forecasting
+**Machine Learning Model (Multivariate Multi-Output Regression / Time-Series Forecasting)**
+- LSTM - forecasts future daily weather attributes that are required as inputs (X) by the downstream Rain, Wind, Temperature, and Snow models.
+- This is an input-forecasting model, not the final Rain/Wind/Temperature/Snow prediction model.
+
+**Input (X)**
+
+Historical sequences of the daily weather variables that need to be forecast for the downstream models.
+
+**Output (y)**
+
+Future values of the required raw weather input attributes, including the relevant:
+
+1. Temperature attributes
+2. Humidity / dew-point attributes
+3. Cloud-cover attributes
+4. Pressure attributes
+5. Wind attributes
+6. Solar-radiation attributes
+7. Other raw weather attributes required by the downstream models
+
+**Created after LSTM forecasting**
+
+- `pressure_change` — calculate from consecutive predicted `surface_pressure_mean` values rather than forecasting it independently.
+- `month` — derive directly from the future forecast date.
+
+**Purpose / flow**
+
+`Historical weather -> LSTM -> future input attributes -> downstream ML model -> final prediction`
+
+For example:
+
+- LSTM future inputs -> Rain classifier -> rainfall class
+- LSTM future pressure/direction -> Wind regressor -> `wind_speed_10m_max` (km/h)
 
 ---
 
