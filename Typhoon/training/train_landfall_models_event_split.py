@@ -2,6 +2,10 @@ import os
 import joblib
 import pandas as pd
 import numpy as np
+<<<<<<< HEAD
+=======
+from pathlib import Path
+>>>>>>> 9f54794d56652b00c1acac858c45d5ebdde021d4
 
 from sklearn.model_selection import GroupShuffleSplit
 from sklearn.compose import ColumnTransformer
@@ -30,6 +34,7 @@ from sklearn.svm import SVC
 # PATH SETTINGS
 # ============================================================
 
+<<<<<<< HEAD
 SCRIPT_FOLDER = os.path.dirname(
     os.path.abspath(__file__)
 )
@@ -43,6 +48,12 @@ OUTPUT_FOLDER = os.path.join(
     SCRIPT_FOLDER,
     "trained_models"
 )
+=======
+ROOT = Path(__file__).resolve().parents[1]
+
+INPUT_FILE = ROOT / "data" / "processed" / "jma_day3_to_landfall_with_weather_prefecture.csv"
+OUTPUT_FOLDER = Path(__file__).resolve().parent / "trained_models"
+>>>>>>> 9f54794d56652b00c1acac858c45d5ebdde021d4
 
 os.makedirs(
     OUTPUT_FOLDER,
