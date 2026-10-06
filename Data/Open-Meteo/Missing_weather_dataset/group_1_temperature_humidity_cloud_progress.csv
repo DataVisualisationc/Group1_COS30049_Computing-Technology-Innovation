@@ -193,6 +193,7 @@ Shiga|Hikone|35.274400|136.259400,1,Shiga,Hikone,35.2744,136.2594,failed,0,2021-
 Shiga|Nagahama|35.383100|136.279700,2,Shiga,Nagahama,35.3831,136.2797,failed,0,2021-01-01,2026-01-31,Request failed after 5 attempts: None
 Shiga|Shigaraki|34.850000|136.166700,3,Shiga,Shigaraki,34.85,136.1667,failed,0,2021-01-01,2026-01-31,Request failed after 5 attempts: None
 <<<<<<< HEAD
+<<<<<<< HEAD
 Shiga|Hikone|35.274400|136.259400,1,Shiga,Hikone,35.2744,136.2594,failed,0,2021-01-01,2026-01-31,Request failed after 5 attempts: None
 Shiga|Nagahama|35.383100|136.279700,2,Shiga,Nagahama,35.3831,136.2797,failed,0,2021-01-01,2026-01-31,Request failed after 5 attempts: None
 Shiga|Shigaraki|34.850000|136.166700,3,Shiga,Shigaraki,34.85,136.1667,failed,0,2021-01-01,2026-01-31,Request failed after 5 attempts: None
@@ -390,5 +391,7 @@ Hokkaido - Kushiro|Shiranuka|42.916700|143.916700,3,Hokkaido - Kushiro,Shiranuka
 Hokkaido - Hidaka|Shizunai (Shinhidaka)|42.333900|142.360800,1,Hokkaido - Hidaka,Shizunai (Shinhidaka),42.3339,142.3608,failed,0,2021-01-01,2026-01-31,Request failed after 5 attempts: None
 Hokkaido - Iburi|Date|42.483300|140.850000,2,Hokkaido - Iburi,Date,42.4833,140.85,failed,0,2021-01-01,2026-01-31,Request failed after 5 attempts: None
 Hokkaido - Okhotsk|Shari|43.909200|144.668300,3,Hokkaido - Okhotsk,Shari,43.9092,144.6683,failed,0,2021-01-01,2026-01-31,Request failed after 5 attempts: None
+=======
+>>>>>>> 9f54794d56652b00c1acac858c45d5ebdde021d4
 =======
 >>>>>>> 9f54794d56652b00c1acac858c45d5ebdde021d4

@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 location_id,city/town,latitude,longitude,elevation,utc_offset_seconds,timezone,timezone_abbreviation
 0,Sapporo,43.128292,141.3711,20.0,0,GMT,GMT
 1,Chitose,42.7768,141.6568,11.0,0,GMT,GMT
@@ -7435,6 +7436,8 @@ location_id,time,apparent_temperature_max (°C),apparent_temperature_min (°C),p
 3,2026-01-30,-5.9,-11.7,3.60,0.00,2.52,11.0,31.0,53.3
 3,2026-01-31,-6.2,-8.8,10.00,0.00,7.00,24.0,27.5,48.2
 =======
+=======
+>>>>>>> 9f54794d56652b00c1acac858c45d5ebdde021d4
 ﻿location_id,city/town,latitude,longitude,elevation,utc_offset_seconds,timezone,timezone_abbreviation
 0,Sapporo,43.057995,141.29463,20.0,32400,Asia/Tokyo,GMT+9
 1,Chitose,42.7768,141.6568,11.0,32400,Asia/Tokyo,GMT+9
@@ -15838,4 +15841,7 @@ location_id,time,temperature_2m_max,temperature_2m_min,wind_speed_10m_max,wind_g
 3,2026-09-28,21.4,17.2,38.3,51.8,0.0,9.2,7.0,9.2
 3,2026-09-29,18.5,16.1,56.7,79.9,0.0,8.5,17.0,8.5
 3,2026-09-30,19.2,14.2,25.8,36.7,0.0,1.1,7.0,1.1
+<<<<<<< HEAD
+>>>>>>> 9f54794d56652b00c1acac858c45d5ebdde021d4
+=======
 >>>>>>> 9f54794d56652b00c1acac858c45d5ebdde021d4

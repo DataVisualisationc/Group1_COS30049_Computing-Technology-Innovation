@@ -3,6 +3,7 @@
 Reference for preprocessing: each model's input (X) and output (y)
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 **(raw)** = pulled directly from Open-Meteo / source dataset  
 
 **(created)** = engineered by us in preprocessing.
@@ -121,6 +122,8 @@ Flood occurrence severity  (3-level flag):
 
 ---
 =======
+=======
+>>>>>>> 9f54794d56652b00c1acac858c45d5ebdde021d4
 **(raw)** = pulled directly from Open-Meteo / source dataset
 
 **(created)** = engineered by us in preprocessing.
@@ -404,6 +407,9 @@ Random Forest Regressor - very safe - Gradient Boosting Regression
 1.  `snowfall_sum`
 
 ------------------------------------------------------------------------
+<<<<<<< HEAD
+>>>>>>> 9f54794d56652b00c1acac858c45d5ebdde021d4
+=======
 >>>>>>> 9f54794d56652b00c1acac858c45d5ebdde021d4
 
 ## Typhoon
@@ -460,8 +466,11 @@ include:
 35. `shortwave_radiation_sum`
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> 9f54794d56652b00c1acac858c45d5ebdde021d4
 =======
 >>>>>>> 9f54794d56652b00c1acac858c45d5ebdde021d4
 `nearest_prefecture` is retained as a categorical feature.
@@ -470,6 +479,7 @@ include:
 
 `risk`
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 1.  Low 
 2.  Moderate 
@@ -480,12 +490,17 @@ include:
 
 
 =======
+=======
+>>>>>>> 9f54794d56652b00c1acac858c45d5ebdde021d4
 1.  Low
 2.  Moderate
 3.  High
 
 **Training / testing**
 
+<<<<<<< HEAD
+>>>>>>> 9f54794d56652b00c1acac858c45d5ebdde021d4
+=======
 >>>>>>> 9f54794d56652b00c1acac858c45d5ebdde021d4
 -   Split by `landfall_event_id` rather than individual rows to prevent
     rows from the same landfall event appearing in both sets.
@@ -493,8 +508,11 @@ include:
     standardized with `StandardScaler`.
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> 9f54794d56652b00c1acac858c45d5ebdde021d4
 =======
 >>>>>>> 9f54794d56652b00c1acac858c45d5ebdde021d4
 **Status / notes**

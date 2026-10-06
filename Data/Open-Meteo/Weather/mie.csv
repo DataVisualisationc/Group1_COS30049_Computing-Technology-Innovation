@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 location_id,city/town,latitude,longitude,elevation,utc_offset_seconds,timezone,timezone_abbreviation
 0,Tsu,34.76274,136.48102,17.0,0,GMT,GMT
 1,Kuwana,35.114235,136.66243,3.0,0,GMT,GMT
@@ -7435,6 +7436,8 @@ location_id,time,apparent_temperature_max (°C),apparent_temperature_min (°C),p
 3,2026-01-30,-0.7,-4.3,0.20,0.00,0.14,1.0,26.9,59.8
 3,2026-01-31,-0.6,-3.3,0.20,0.20,0.00,2.0,28.9,64.1
 =======
+=======
+>>>>>>> 9f54794d56652b00c1acac858c45d5ebdde021d4
 ﻿location_id,city/town,latitude,longitude,elevation,utc_offset_seconds,timezone,timezone_abbreviation
 0,Tsu,34.76274,136.48102,17.0,32400,Asia/Tokyo,GMT+9
 1,Kuwana,35.043934,136.71756,3.0,32400,Asia/Tokyo,GMT+9
@@ -15838,4 +15841,7 @@ location_id,time,temperature_2m_max,temperature_2m_min,wind_speed_10m_max,wind_g
 3,2026-09-28,25.7,22.6,13.3,35.3,0.0,35.2,23.0,35.2
 3,2026-09-29,22.9,18.8,16.9,36.7,0.0,36.4,19.0,36.4
 3,2026-09-30,24.8,18.7,13.7,32.4,0.0,3.4,8.0,3.4
+<<<<<<< HEAD
+>>>>>>> 9f54794d56652b00c1acac858c45d5ebdde021d4
+=======
 >>>>>>> 9f54794d56652b00c1acac858c45d5ebdde021d4

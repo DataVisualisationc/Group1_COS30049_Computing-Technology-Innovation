@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 location_id,city/town,latitude,longitude,elevation,utc_offset_seconds,timezone,timezone_abbreviation
 0,Nara,34.69244,135.73956,65.0,0,GMT,GMT
 1,Gojo,34.411247,135.73586,136.0,0,GMT,GMT
@@ -7435,6 +7436,8 @@ location_id,time,apparent_temperature_max (°C),apparent_temperature_min (°C),p
 3,2026-01-30,-2.0,-5.5,0.10,0.00,0.07,1.0,18.5,46.8
 3,2026-01-31,-1.5,-5.6,0.00,0.00,0.00,0.0,18.0,46.4
 =======
+=======
+>>>>>>> 9f54794d56652b00c1acac858c45d5ebdde021d4
 ﻿location_id,city/town,latitude,longitude,elevation,utc_offset_seconds,timezone,timezone_abbreviation
 0,Nara,34.69244,135.85335,65.0,32400,Asia/Tokyo,GMT+9
 1,Gojo,34.340946,135.67839,136.0,32400,Asia/Tokyo,GMT+9
@@ -15838,4 +15841,7 @@ location_id,time,temperature_2m_max,temperature_2m_min,wind_speed_10m_max,wind_g
 3,2026-09-28,24.5,20.2,11.4,33.1,0.0,20.4,22.0,20.4
 3,2026-09-29,20.9,16.7,8.4,23.4,0.0,27.3,24.0,27.3
 3,2026-09-30,24.7,15.8,9.2,24.1,0.0,0.6,4.0,0.6
+<<<<<<< HEAD
+>>>>>>> 9f54794d56652b00c1acac858c45d5ebdde021d4
+=======
 >>>>>>> 9f54794d56652b00c1acac858c45d5ebdde021d4

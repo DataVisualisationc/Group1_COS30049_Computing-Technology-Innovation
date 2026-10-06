@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 location_id,city/town,latitude,longitude,elevation,utc_offset_seconds,timezone,timezone_abbreviation
 0,Wakkanai,45.377853,141.69014,16.0,0,GMT,GMT
 1,Kafuka (Rebun Island),45.237255,141.24805,84.0,0,GMT,GMT
@@ -7435,6 +7436,8 @@ location_id,time,apparent_temperature_max (°C),apparent_temperature_min (°C),p
 3,2026-01-30,-5.2,-9.6,3.90,0.00,2.73,20.0,20.2,45.7
 3,2026-01-31,-8.3,-14.0,1.00,0.00,0.70,7.0,20.6,45.4
 =======
+=======
+>>>>>>> 9f54794d56652b00c1acac858c45d5ebdde021d4
 ﻿location_id,city/town,latitude,longitude,elevation,utc_offset_seconds,timezone,timezone_abbreviation
 0,Wakkanai,45.377853,141.69014,16.0,32400,Asia/Tokyo,GMT+9
 1,Kafuka (Rebun Island),45.307556,141.04688,84.0,32400,Asia/Tokyo,GMT+9
@@ -15838,4 +15841,7 @@ location_id,time,temperature_2m_max,temperature_2m_min,wind_speed_10m_max,wind_g
 3,2026-09-28,17.0,15.5,24.8,31.0,0.0,2.6,3.0,2.6
 3,2026-09-29,16.8,13.5,39.0,52.6,0.0,3.6,11.0,3.6
 3,2026-09-30,14.0,12.3,32.0,42.1,0.0,0.0,0.0,0.0
+<<<<<<< HEAD
+>>>>>>> 9f54794d56652b00c1acac858c45d5ebdde021d4
+=======
 >>>>>>> 9f54794d56652b00c1acac858c45d5ebdde021d4

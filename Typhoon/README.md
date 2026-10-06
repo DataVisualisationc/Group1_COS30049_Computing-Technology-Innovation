@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # JMA Typhoon Landfall Risk Prediction Pipeline
 
 This README documents the complete data-processing, model-training, and
@@ -162,6 +163,8 @@ or `High`.
 set, makes a prediction, compares it with the actual risk, and displays
 prediction probabilities where supported.
 =======
+=======
+>>>>>>> 9f54794d56652b00c1acac858c45d5ebdde021d4
 # JMA Typhoon Landfall Risk Prediction
 
 ## Folder Structure
@@ -241,4 +244,7 @@ Copy your existing `.joblib` files and generated training/testing CSVs into:
 ```text
 training/trained_models/
 ```
+<<<<<<< HEAD
+>>>>>>> 9f54794d56652b00c1acac858c45d5ebdde021d4
+=======
 >>>>>>> 9f54794d56652b00c1acac858c45d5ebdde021d4
