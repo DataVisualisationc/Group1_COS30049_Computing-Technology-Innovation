@@ -3,6 +3,16 @@ import pandas as pd, numpy as np
 
 R=Path(__file__).resolve().parent; O=R.parent/"Data"/"Open-Meteo"; OUT=R/"dataset"; OUT.mkdir(exist_ok=True)
 
+
+def normalize_prefecture_name(x):
+    x = str(x).strip()
+    # "Hokkaido - Hidaka" -> "Hokkaido-Hidaka"
+    x = pd.Series([x]).str.replace(r"\s*-\s*", "-", regex=True).iloc[0]
+    # "Hokkaido-_Kushiro" -> "Hokkaido-Kushiro"
+    x = x.replace("-_", "-")
+    return x
+
+
 def load(p):
     """
     Reads Open-Meteo CSV files that may contain:
@@ -157,10 +167,14 @@ def merge(a,b):
  if not loc and b["date"].duplicated().any(): raise ValueError("multiple locations per date with no common location key")
  return a.merge(b[keys+[c for c in b if c not in a]],on=keys,how="left")
 cloud=load(next((O/"Daily_cloud_humid_pressure").glob("*.csv")))
+
+if "prefecture" in cloud.columns:
+ cloud["prefecture"]=cloud["prefecture"].apply(normalize_prefecture_name)
+
 frames=[]
 
 for f in sorted((O/"Weather").glob("*.csv")):
- n=f.stem; print("Processing",n); d=load(f)
+ n=normalize_prefecture_name(f.stem); print("Processing",n); d=load(f)
  if "prefecture" not in d: d["prefecture"]=n
  for p in [O/"Daily_solar_dewpoint"/f"{n}_solar_dewpoint.csv",O/"Daily_surface_pressure_wind_direction"/f"{n}_pressure_wind.csv"]:
   if p.exists(): d=merge(d,load(p))
@@ -171,6 +185,12 @@ for f in sorted((O/"Weather").glob("*.csv")):
  frames.append(d)
 
 df=pd.concat(frames,ignore_index=True)
+
+# Keep only dates up to and including 2026-01-31.
+# Dates after this are not required for this project.
+df["date"] = pd.to_datetime(df["date"], errors="coerce")
+df = df[df["date"] <= pd.Timestamp("2026-01-31")].copy()
+df["date"] = df["date"].dt.strftime("%Y-%m-%d")
 rc=[c for c in df if c=="rain_sum" or c.startswith("rain_sum")]
 
 

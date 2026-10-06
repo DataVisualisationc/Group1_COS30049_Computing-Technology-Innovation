@@ -1,0 +1,1 @@
+Move/copy your existing jp_shp folder here.
