@@ -32,7 +32,7 @@ These are project-defined daily rainfall classes, not official JMA Low/Moderate/
 4. Support Vector Machine (SVM)
 
 ## Train/Test Split
-- 2021-2025: training
+- 2023-2025: training
 - 2026: testing
 
 A chronological split is used to keep future observations out of the training set.
@@ -102,4 +102,4 @@ python -m pip install pandas numpy matplotlib scikit-learn joblib jupyter
 - `rain_sum` may remain in processed/testing CSV files for evaluation, but it must never be passed to `model.predict()`.
 - The models predict rainfall categories, not exact rainfall in millimetres.
 - Daily weather data is used rather than hourly weather data.
-- Keep the 2021-2025 training / 2026 testing split when comparing models.
+- Keep the 2023-2025 training / 2026 testing split when comparing models.

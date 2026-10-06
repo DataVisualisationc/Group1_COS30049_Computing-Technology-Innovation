@@ -67,6 +67,11 @@ Flood occurrence severity  (3-level flag):
 - The model predicts a rainfall category rather than an exact rainfall amount.
 - The rainfall thresholds above are project-defined daily classes.
 
+**Training / testing**
+
+- Training: 2023–2025
+- Testing: 2026
+
 ---
 
 ## Wind
@@ -92,6 +97,11 @@ Flood occurrence severity  (3-level flag):
 - MARS was removed because the required `pyearth/Earth` package is unavailable in the current Python environment.
 - Random Forest was not selected because it is comparatively slow and can create large model files for this dataset.
 - `HistGradientBoostingRegressor` is used as the more efficient third regression model.
+
+**Training / testing**
+
+- Training: 2023–2025
+- Testing: 2026
 
 ---
 
@@ -153,7 +163,7 @@ For example:
 
 **Training / testing**
 
-- Training: 2021–2025
+- Training: 2023–2025
 - Testing: 2026
 
 **Status / notes**

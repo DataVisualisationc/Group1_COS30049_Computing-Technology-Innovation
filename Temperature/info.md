@@ -8,7 +8,7 @@ Models:
 2. Gradient Boosting Regressor
 3. HistGradientBoostingRegressor
 
-Split: 2021–2025 training, 2026 testing.
+Split: 2023–2025 training, 2026 testing.
 
 Run:
 1. `python preprocess_temperature.py`

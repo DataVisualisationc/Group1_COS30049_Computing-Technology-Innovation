@@ -11,9 +11,9 @@ Features:
   wind_direction_10m_dominant
 
 Models:
-  MARS
   Multiple Linear Regression
   Gradient Boosting Regressor
+  HistGradientBoostingRegressor
 
 Workflow:
 1. python preprocess_wind.py
@@ -23,8 +23,6 @@ Workflow:
 Core packages:
   python -m pip install pandas numpy matplotlib scikit-learn joblib jupyter
 
-MARS:
-  The notebook tries `from pyearth import Earth`.
-  Package compatibility can vary with newer Python versions. If unavailable, the
-  notebook still trains MLR and Gradient Boosting and clearly reports that MARS
-  was skipped rather than failing the entire experiment.
+Training / testing:
+  2023-2025: training
+  2026: testing
