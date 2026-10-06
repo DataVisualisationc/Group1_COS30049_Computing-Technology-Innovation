@@ -1,0 +1,6 @@
+﻿town_key,source_index,prefecture,town,latitude,longitude,status,rows_downloaded,start_date,end_date,error
+Yamaguchi|Shimonoseki|33.957800|130.941400,0,Yamaguchi,Shimonoseki,33.9578,130.9414,complete,1857,2021-01-01,2026-01-31,
+Yamaguchi|Hagi|34.408400|131.399000,1,Yamaguchi,Hagi,34.4084,131.399,complete,1857,2021-01-01,2026-01-31,
+Yamaguchi|Iwakuni|34.166700|132.216700,2,Yamaguchi,Iwakuni,34.1667,132.2167,complete,1857,2021-01-01,2026-01-31,
+Yamaguchi|Yamaguchi|34.178500|131.473700,3,Yamaguchi,Yamaguchi,34.1785,131.4737,complete,1857,2021-01-01,2026-01-31,
+Yamaguchi|Ube|33.951500|131.246700,4,Yamaguchi,Ube,33.9515,131.2467,failed,0,2021-01-01,2026-01-31,Request failed after 5 attempts: None

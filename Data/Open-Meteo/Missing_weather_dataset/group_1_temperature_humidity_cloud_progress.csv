@@ -192,3 +192,200 @@ Shiga|Otsu|35.004400|135.868600,0,Shiga,Otsu,35.0044,135.8686,complete,1857,2021
 Shiga|Hikone|35.274400|136.259400,1,Shiga,Hikone,35.2744,136.2594,failed,0,2021-01-01,2026-01-31,Request failed after 5 attempts: None
 Shiga|Nagahama|35.383100|136.279700,2,Shiga,Nagahama,35.3831,136.2797,failed,0,2021-01-01,2026-01-31,Request failed after 5 attempts: None
 Shiga|Shigaraki|34.850000|136.166700,3,Shiga,Shigaraki,34.85,136.1667,failed,0,2021-01-01,2026-01-31,Request failed after 5 attempts: None
+Shiga|Hikone|35.274400|136.259400,1,Shiga,Hikone,35.2744,136.2594,failed,0,2021-01-01,2026-01-31,Request failed after 5 attempts: None
+Shiga|Nagahama|35.383100|136.279700,2,Shiga,Nagahama,35.3831,136.2797,failed,0,2021-01-01,2026-01-31,Request failed after 5 attempts: None
+Shiga|Shigaraki|34.850000|136.166700,3,Shiga,Shigaraki,34.85,136.1667,failed,0,2021-01-01,2026-01-31,Request failed after 5 attempts: None
+Mie|Tsu|34.730400|136.508600,0,Mie,Tsu,34.7304,136.5086,failed,0,2021-01-01,2026-01-31,Request failed after 5 attempts: None
+Mie|Kuwana|35.066700|136.683300,1,Mie,Kuwana,35.0667,136.6833,failed,0,2021-01-01,2026-01-31,Request failed after 5 attempts: None
+Mie|Kumano|33.888600|136.099400,2,Mie,Kumano,33.8886,136.0994,failed,0,2021-01-01,2026-01-31,Request failed after 5 attempts: None
+Mie|Toba|34.486400|136.842200,3,Mie,Toba,34.4864,136.8422,failed,0,2021-01-01,2026-01-31,Request failed after 5 attempts: None
+Nara|Nara|34.685100|135.804800,0,Nara,Nara,34.6851,135.8048,failed,0,2021-01-01,2026-01-31,Request failed after 5 attempts: None
+Nara|Gojo|34.360800|135.700300,1,Nara,Gojo,34.3608,135.7003,failed,0,2021-01-01,2026-01-31,Request failed after 5 attempts: None
+Nara|Kamikitayama|34.150000|135.950000,2,Nara,Kamikitayama,34.15,135.95,failed,0,2021-01-01,2026-01-31,Request failed after 5 attempts: None
+Nara|Uda (Oouda)|34.508900|135.932800,3,Nara,Uda (Oouda),34.5089,135.9328,failed,0,2021-01-01,2026-01-31,Request failed after 5 attempts: None
+Tokyo|Shinjuku|35.693800|139.703400,0,Tokyo,Shinjuku,35.6938,139.7034,failed,0,2021-01-01,2026-01-31,Request failed after 5 attempts: None
+Tokyo|Hachioji|35.666400|139.316000,1,Tokyo,Hachioji,35.6664,139.316,failed,0,2021-01-01,2026-01-31,Request failed after 5 attempts: None
+Tokyo|Tachikawa|35.698300|139.413700,2,Tokyo,Tachikawa,35.6983,139.4137,failed,0,2021-01-01,2026-01-31,Request failed after 5 attempts: None
+Tokyo|Machida|35.548700|139.446700,3,Tokyo,Machida,35.5487,139.4467,failed,0,2021-01-01,2026-01-31,Request failed after 5 attempts: None
+Tokyo|Ome|35.787800|139.275600,4,Tokyo,Ome,35.7878,139.2756,failed,0,2021-01-01,2026-01-31,Request failed after 5 attempts: None
+Yamagata|Yamagata|38.240500|140.363400,0,Yamagata,Yamagata,38.2405,140.3634,failed,0,2021-01-01,2026-01-31,Request failed after 5 attempts: None
+Yamagata|Tsuruoka|38.727200|139.826800,1,Yamagata,Tsuruoka,38.7272,139.8268,failed,0,2021-01-01,2026-01-31,Request failed after 5 attempts: None
+Yamagata|Sakata|38.914400|139.836400,2,Yamagata,Sakata,38.9144,139.8364,failed,0,2021-01-01,2026-01-31,Request failed after 5 attempts: None
+Yamagata|Yonezawa|37.922200|140.116700,3,Yamagata,Yonezawa,37.9222,140.1167,failed,0,2021-01-01,2026-01-31,Request failed after 5 attempts: None
+Tochigi|Utsunomiya|36.555100|139.882800,0,Tochigi,Utsunomiya,36.5551,139.8828,failed,0,2021-01-01,2026-01-31,Request failed after 5 attempts: None
+Tochigi|Nikko|36.719900|139.698200,1,Tochigi,Nikko,36.7199,139.6982,failed,0,2021-01-01,2026-01-31,Request failed after 5 attempts: None
+Tochigi|Nasushiobara|36.962800|140.046100,2,Tochigi,Nasushiobara,36.9628,140.0461,failed,0,2021-01-01,2026-01-31,Request failed after 5 attempts: None
+Tochigi|Oyama|36.314500|139.800400,3,Tochigi,Oyama,36.3145,139.8004,failed,0,2021-01-01,2026-01-31,Request failed after 5 attempts: None
+Tochigi|Ashikaga|36.340600|139.449700,4,Tochigi,Ashikaga,36.3406,139.4497,failed,0,2021-01-01,2026-01-31,Request failed after 5 attempts: None
+Toyama|Toyama|36.695300|137.211400,0,Toyama,Toyama,36.6953,137.2114,failed,0,2021-01-01,2026-01-31,Request failed after 5 attempts: None
+Toyama|Takaoka|36.754600|137.025900,1,Toyama,Takaoka,36.7546,137.0259,failed,0,2021-01-01,2026-01-31,Request failed after 5 attempts: None
+Toyama|Kurobe|36.871900|137.441200,2,Toyama,Kurobe,36.8719,137.4412,failed,0,2021-01-01,2026-01-31,Request failed after 5 attempts: None
+Toyama|Uozu|36.828100|137.403300,3,Toyama,Uozu,36.8281,137.4033,failed,0,2021-01-01,2026-01-31,Request failed after 5 attempts: None
+Yamanashi|Kofu|35.664200|138.568400,0,Yamanashi,Kofu,35.6642,138.5684,failed,0,2021-01-01,2026-01-31,Request failed after 5 attempts: None
+Yamanashi|Fujiyoshida|35.487800|138.807500,1,Yamanashi,Fujiyoshida,35.4878,138.8075,failed,0,2021-01-01,2026-01-31,Request failed after 5 attempts: None
+Yamanashi|Otsuki|35.611700|138.940000,2,Yamanashi,Otsuki,35.6117,138.94,failed,0,2021-01-01,2026-01-31,Request failed after 5 attempts: None
+Yamanashi|Nirasaki|35.708300|138.455300,3,Yamanashi,Nirasaki,35.7083,138.4553,failed,0,2021-01-01,2026-01-31,Request failed after 5 attempts: None
+Yamanashi|Fujikawaguchiko|35.512200|138.751400,4,Yamanashi,Fujikawaguchiko,35.5122,138.7514,failed,0,2021-01-01,2026-01-31,Request failed after 5 attempts: None
+Wakayama|Wakayama|34.226100|135.167500,0,Wakayama,Wakayama,34.2261,135.1675,failed,0,2021-01-01,2026-01-31,Request failed after 5 attempts: None
+Wakayama|Tanabe|33.733300|135.377800,1,Wakayama,Tanabe,33.7333,135.3778,failed,0,2021-01-01,2026-01-31,Request failed after 5 attempts: None
+Wakayama|Shingu|33.724700|135.987200,2,Wakayama,Shingu,33.7247,135.9872,failed,0,2021-01-01,2026-01-31,Request failed after 5 attempts: None
+Wakayama|Koya|34.213100|135.585800,3,Wakayama,Koya,34.2131,135.5858,failed,0,2021-01-01,2026-01-31,Request failed after 5 attempts: None
+Wakayama|Gobo|33.889400|135.150800,4,Wakayama,Gobo,33.8894,135.1508,failed,0,2021-01-01,2026-01-31,Request failed after 5 attempts: None
+Hokkaido-Ishikari|Sapporo|43.064200|141.346900,0,Hokkaido-Ishikari,Sapporo,43.0642,141.3469,failed,0,2021-01-01,2026-01-31,Request failed after 5 attempts: None
+Hokkaido - Ishikari|Chitose|42.823600|141.652800,1,Hokkaido - Ishikari,Chitose,42.8236,141.6528,failed,0,2021-01-01,2026-01-31,Request failed after 5 attempts: None
+Hokkaido - Ishikari|Shinshinotsu|43.283300|141.566700,2,Hokkaido - Ishikari,Shinshinotsu,43.2833,141.5667,failed,0,2021-01-01,2026-01-31,Request failed after 5 attempts: None
+Hokkaido - Ishikari|Hamamasu|43.366700|141.350000,3,Hokkaido - Ishikari,Hamamasu,43.3667,141.35,failed,0,2021-01-01,2026-01-31,Request failed after 5 attempts: None
+Hokkaido-Shiribeshi|Otaru|43.190700|140.994700,0,Hokkaido-Shiribeshi,Otaru,43.1907,140.9947,failed,0,2021-01-01,2026-01-31,Request failed after 5 attempts: None
+Hokkaido - Shiribeshi|Kutchan|42.902200|140.761400,1,Hokkaido - Shiribeshi,Kutchan,42.9022,140.7614,failed,0,2021-01-01,2026-01-31,Request failed after 5 attempts: None
+Hokkaido - Shiribeshi|Suttsu|42.796900|140.217200,2,Hokkaido - Shiribeshi,Suttsu,42.7969,140.2172,failed,0,2021-01-01,2026-01-31,Request failed after 5 attempts: None
+Hokkaido - Shiribeshi|Kimobetsu|42.733300|140.883300,3,Hokkaido - Shiribeshi,Kimobetsu,42.7333,140.8833,failed,0,2021-01-01,2026-01-31,Request failed after 5 attempts: None
+Hokkaido-Oshima|Hakodate|41.768700|140.728800,0,Hokkaido-Oshima,Hakodate,41.7687,140.7288,failed,0,2021-01-01,2026-01-31,Request failed after 5 attempts: None
+Hokkaido - Oshima|Matsumae|41.430600|140.107800,1,Hokkaido - Oshima,Matsumae,41.4306,140.1078,failed,0,2021-01-01,2026-01-31,Request failed after 5 attempts: None
+Hokkaido - Oshima|Mori|42.105800|140.574400,2,Hokkaido - Oshima,Mori,42.1058,140.5744,failed,0,2021-01-01,2026-01-31,Request failed after 5 attempts: None
+Hokkaido - Oshima|Kikonai|41.666700|140.433300,3,Hokkaido - Oshima,Kikonai,41.6667,140.4333,failed,0,2021-01-01,2026-01-31,Request failed after 5 attempts: None
+Hokkaido-Soya|Wakkanai|45.415600|141.673300,0,Hokkaido-Soya,Wakkanai,45.4156,141.6733,failed,0,2021-01-01,2026-01-31,Request failed after 5 attempts: None
+Hokkaido - Soya|Kafuka (Rebun Island)|45.301100|141.039200,1,Hokkaido - Soya,Kafuka (Rebun Island),45.3011,141.0392,failed,0,2021-01-01,2026-01-31,Request failed after 5 attempts: None
+Hokkaido - Soya|Hamatonbetsu|45.066700|141.733300,2,Hokkaido - Soya,Hamatonbetsu,45.0667,141.7333,failed,0,2021-01-01,2026-01-31,Request failed after 5 attempts: None
+Hokkaido - Soya|Esashi (Kitamiesashi)|44.933300|142.583300,3,Hokkaido - Soya,Esashi (Kitamiesashi),44.9333,142.5833,failed,0,2021-01-01,2026-01-31,Request failed after 5 attempts: None
+Hokkaido-Kamikawa|Asahikawa|43.770600|142.365000,0,Hokkaido-Kamikawa,Asahikawa,43.7706,142.365,failed,0,2021-01-01,2026-01-31,Request failed after 5 attempts: None
+Hokkaido - Kamikawa|Furano|43.343900|142.383100,1,Hokkaido - Kamikawa,Furano,43.3439,142.3831,failed,0,2021-01-01,2026-01-31,Request failed after 5 attempts: None
+Hokkaido - Kamikawa|Nayoro|44.358300|142.458900,2,Hokkaido - Kamikawa,Nayoro,44.3583,142.4589,failed,0,2021-01-01,2026-01-31,Request failed after 5 attempts: None
+Hokkaido - Kamikawa|Shimukappu|43.150000|142.766700,3,Hokkaido - Kamikawa,Shimukappu,43.15,142.7667,failed,0,2021-01-01,2026-01-31,Request failed after 5 attempts: None
+Hokkaido-Hidaka|Urakawa|42.163300|142.778900,0,Hokkaido-Hidaka,Urakawa,42.1633,142.7789,failed,0,2021-01-01,2026-01-31,Request failed after 5 attempts: None
+Hokkaido - Hidaka|Shizunai (Shinhidaka)|42.333900|142.360800,1,Hokkaido - Hidaka,Shizunai (Shinhidaka),42.3339,142.3608,failed,0,2021-01-01,2026-01-31,Request failed after 5 attempts: None
+Hokkaido - Hidaka|Erimomisaki|41.923600|143.233300,2,Hokkaido - Hidaka,Erimomisaki,41.9236,143.2333,failed,0,2021-01-01,2026-01-31,Request failed after 5 attempts: None
+Hokkaido - Hidaka|Hidakamonbetsu|42.533300|142.033300,3,Hokkaido - Hidaka,Hidakamonbetsu,42.5333,142.0333,failed,0,2021-01-01,2026-01-31,Request failed after 5 attempts: None
+Hokkaido-Rumoi|Rumoi|43.941100|141.642800,0,Hokkaido-Rumoi,Rumoi,43.9411,141.6428,failed,0,2021-01-01,2026-01-31,Request failed after 5 attempts: None
+Hokkaido - Rumoi|Enbetsu|44.733300|141.783300,1,Hokkaido - Rumoi,Enbetsu,44.7333,141.7833,failed,0,2021-01-01,2026-01-31,Request failed after 5 attempts: None
+Hokkaido - Rumoi|Mashike|43.854400|141.513600,2,Hokkaido - Rumoi,Mashike,43.8544,141.5136,failed,0,2021-01-01,2026-01-31,Request failed after 5 attempts: None
+Hokkaido - Rumoi|Shosanbetsu|44.300000|141.800000,3,Hokkaido - Rumoi,Shosanbetsu,44.3,141.8,failed,0,2021-01-01,2026-01-31,Request failed after 5 attempts: None
+Hokkaido-Sorachi|Iwamizawa|43.200000|141.783300,0,Hokkaido-Sorachi,Iwamizawa,43.2,141.7833,failed,0,2021-01-01,2026-01-31,Request failed after 5 attempts: None
+Hokkaido - Sorachi|Takikawa|43.549700|141.911400,1,Hokkaido - Sorachi,Takikawa,43.5497,141.9114,failed,0,2021-01-01,2026-01-31,Request failed after 5 attempts: None
+Hokkaido - Sorachi|Yubari|43.041700|141.975600,2,Hokkaido - Sorachi,Yubari,43.0417,141.9756,failed,0,2021-01-01,2026-01-31,Request failed after 5 attempts: None
+Hokkaido - Sorachi|Naganuma|43.070000|141.700000,3,Hokkaido - Sorachi,Naganuma,43.07,141.7,failed,0,2021-01-01,2026-01-31,Request failed after 5 attempts: None
+Hokkaido-Iburi|Tomakomai|42.637600|141.604400,0,Hokkaido-Iburi,Tomakomai,42.6376,141.6044,failed,0,2021-01-01,2026-01-31,Request failed after 5 attempts: None
+Hokkaido - Iburi|Muroran|42.315300|140.973600,1,Hokkaido - Iburi,Muroran,42.3153,140.9736,failed,0,2021-01-01,2026-01-31,Request failed after 5 attempts: None
+Hokkaido - Iburi|Date|42.483300|140.850000,2,Hokkaido - Iburi,Date,42.4833,140.85,failed,0,2021-01-01,2026-01-31,Request failed after 5 attempts: None
+Hokkaido - Iburi|Atsuma|42.733300|141.966700,3,Hokkaido - Iburi,Atsuma,42.7333,141.9667,failed,0,2021-01-01,2026-01-31,Request failed after 5 attempts: None
+Hokkaido-Hiyama|Esashi (Hiyama)|41.869700|140.128100,0,Hokkaido-Hiyama,Esashi (Hiyama),41.8697,140.1281,failed,0,2021-01-01,2026-01-31,Request failed after 5 attempts: None
+Hokkaido - Hiyama|Setana|42.450000|139.850000,1,Hokkaido - Hiyama,Setana,42.45,139.85,failed,0,2021-01-01,2026-01-31,Request failed after 5 attempts: None
+Hokkaido - Hiyama|Okushiri Island|42.150000|139.516700,2,Hokkaido - Hiyama,Okushiri Island,42.15,139.5167,failed,0,2021-01-01,2026-01-31,Request failed after 5 attempts: None
+Hokkaido - Hiyama|Imagane|42.050000|140.116700,3,Hokkaido - Hiyama,Imagane,42.05,140.1167,failed,0,2021-01-01,2026-01-31,Request failed after 5 attempts: None
+Hokkaido-Tokachi|Obihiro|42.923700|143.196400,0,Hokkaido-Tokachi,Obihiro,42.9237,143.1964,failed,0,2021-01-01,2026-01-31,Request failed after 5 attempts: None
+Hokkaido - Tokachi|Ikeda|42.933300|143.450000,1,Hokkaido - Tokachi,Ikeda,42.9333,143.45,failed,0,2021-01-01,2026-01-31,Request failed after 5 attempts: None
+Shiga|Hikone|35.274400|136.259400,1,Shiga,Hikone,35.2744,136.2594,complete,1857,2021-01-01,2026-01-31,
+Shiga|Nagahama|35.383100|136.279700,2,Shiga,Nagahama,35.3831,136.2797,complete,1857,2021-01-01,2026-01-31,
+Shiga|Shigaraki|34.850000|136.166700,3,Shiga,Shigaraki,34.85,136.1667,complete,1857,2021-01-01,2026-01-31,
+Mie|Tsu|34.730400|136.508600,0,Mie,Tsu,34.7304,136.5086,complete,1857,2021-01-01,2026-01-31,
+Mie|Kuwana|35.066700|136.683300,1,Mie,Kuwana,35.0667,136.6833,complete,1857,2021-01-01,2026-01-31,
+Mie|Kumano|33.888600|136.099400,2,Mie,Kumano,33.8886,136.0994,complete,1857,2021-01-01,2026-01-31,
+Mie|Toba|34.486400|136.842200,3,Mie,Toba,34.4864,136.8422,complete,1857,2021-01-01,2026-01-31,
+Nara|Nara|34.685100|135.804800,0,Nara,Nara,34.6851,135.8048,complete,1857,2021-01-01,2026-01-31,
+Nara|Gojo|34.360800|135.700300,1,Nara,Gojo,34.3608,135.7003,complete,1857,2021-01-01,2026-01-31,
+Nara|Kamikitayama|34.150000|135.950000,2,Nara,Kamikitayama,34.15,135.95,complete,1857,2021-01-01,2026-01-31,
+Nara|Uda (Oouda)|34.508900|135.932800,3,Nara,Uda (Oouda),34.5089,135.9328,failed,0,2021-01-01,2026-01-31,Request failed after 5 attempts: None
+Tokyo|Shinjuku|35.693800|139.703400,0,Tokyo,Shinjuku,35.6938,139.7034,complete,1857,2021-01-01,2026-01-31,
+Tokyo|Hachioji|35.666400|139.316000,1,Tokyo,Hachioji,35.6664,139.316,complete,1857,2021-01-01,2026-01-31,
+Tokyo|Tachikawa|35.698300|139.413700,2,Tokyo,Tachikawa,35.6983,139.4137,complete,1857,2021-01-01,2026-01-31,
+Tokyo|Machida|35.548700|139.446700,3,Tokyo,Machida,35.5487,139.4467,complete,1857,2021-01-01,2026-01-31,
+Tokyo|Ome|35.787800|139.275600,4,Tokyo,Ome,35.7878,139.2756,complete,1857,2021-01-01,2026-01-31,
+Yamagata|Yamagata|38.240500|140.363400,0,Yamagata,Yamagata,38.2405,140.3634,complete,1857,2021-01-01,2026-01-31,
+Yamagata|Tsuruoka|38.727200|139.826800,1,Yamagata,Tsuruoka,38.7272,139.8268,complete,1857,2021-01-01,2026-01-31,
+Yamagata|Sakata|38.914400|139.836400,2,Yamagata,Sakata,38.9144,139.8364,complete,1857,2021-01-01,2026-01-31,
+Yamagata|Yonezawa|37.922200|140.116700,3,Yamagata,Yonezawa,37.9222,140.1167,complete,1857,2021-01-01,2026-01-31,
+Tochigi|Utsunomiya|36.555100|139.882800,0,Tochigi,Utsunomiya,36.5551,139.8828,complete,1857,2021-01-01,2026-01-31,
+Tochigi|Nikko|36.719900|139.698200,1,Tochigi,Nikko,36.7199,139.6982,complete,1857,2021-01-01,2026-01-31,
+Tochigi|Nasushiobara|36.962800|140.046100,2,Tochigi,Nasushiobara,36.9628,140.0461,complete,1857,2021-01-01,2026-01-31,
+Tochigi|Oyama|36.314500|139.800400,3,Tochigi,Oyama,36.3145,139.8004,complete,1857,2021-01-01,2026-01-31,
+Tochigi|Ashikaga|36.340600|139.449700,4,Tochigi,Ashikaga,36.3406,139.4497,complete,1857,2021-01-01,2026-01-31,
+Toyama|Toyama|36.695300|137.211400,0,Toyama,Toyama,36.6953,137.2114,complete,1857,2021-01-01,2026-01-31,
+Toyama|Takaoka|36.754600|137.025900,1,Toyama,Takaoka,36.7546,137.0259,complete,1857,2021-01-01,2026-01-31,
+Toyama|Kurobe|36.871900|137.441200,2,Toyama,Kurobe,36.8719,137.4412,complete,1857,2021-01-01,2026-01-31,
+Toyama|Uozu|36.828100|137.403300,3,Toyama,Uozu,36.8281,137.4033,complete,1857,2021-01-01,2026-01-31,
+Yamanashi|Kofu|35.664200|138.568400,0,Yamanashi,Kofu,35.6642,138.5684,failed,0,2021-01-01,2026-01-31,Request failed after 5 attempts: None
+Yamanashi|Fujiyoshida|35.487800|138.807500,1,Yamanashi,Fujiyoshida,35.4878,138.8075,complete,1857,2021-01-01,2026-01-31,
+Yamanashi|Otsuki|35.611700|138.940000,2,Yamanashi,Otsuki,35.6117,138.94,complete,1857,2021-01-01,2026-01-31,
+Yamanashi|Nirasaki|35.708300|138.455300,3,Yamanashi,Nirasaki,35.7083,138.4553,complete,1857,2021-01-01,2026-01-31,
+Yamanashi|Fujikawaguchiko|35.512200|138.751400,4,Yamanashi,Fujikawaguchiko,35.5122,138.7514,complete,1857,2021-01-01,2026-01-31,
+Wakayama|Wakayama|34.226100|135.167500,0,Wakayama,Wakayama,34.2261,135.1675,complete,1857,2021-01-01,2026-01-31,
+Wakayama|Tanabe|33.733300|135.377800,1,Wakayama,Tanabe,33.7333,135.3778,complete,1857,2021-01-01,2026-01-31,
+Wakayama|Shingu|33.724700|135.987200,2,Wakayama,Shingu,33.7247,135.9872,complete,1857,2021-01-01,2026-01-31,
+Wakayama|Koya|34.213100|135.585800,3,Wakayama,Koya,34.2131,135.5858,complete,1857,2021-01-01,2026-01-31,
+Wakayama|Gobo|33.889400|135.150800,4,Wakayama,Gobo,33.8894,135.1508,complete,1857,2021-01-01,2026-01-31,
+Hokkaido-Ishikari|Sapporo|43.064200|141.346900,0,Hokkaido-Ishikari,Sapporo,43.0642,141.3469,complete,1857,2021-01-01,2026-01-31,
+Hokkaido - Ishikari|Chitose|42.823600|141.652800,1,Hokkaido - Ishikari,Chitose,42.8236,141.6528,complete,1857,2021-01-01,2026-01-31,
+Hokkaido - Ishikari|Shinshinotsu|43.283300|141.566700,2,Hokkaido - Ishikari,Shinshinotsu,43.2833,141.5667,complete,1857,2021-01-01,2026-01-31,
+Hokkaido - Ishikari|Hamamasu|43.366700|141.350000,3,Hokkaido - Ishikari,Hamamasu,43.3667,141.35,complete,1857,2021-01-01,2026-01-31,
+Hokkaido-Shiribeshi|Otaru|43.190700|140.994700,0,Hokkaido-Shiribeshi,Otaru,43.1907,140.9947,complete,1857,2021-01-01,2026-01-31,
+Hokkaido - Shiribeshi|Kutchan|42.902200|140.761400,1,Hokkaido - Shiribeshi,Kutchan,42.9022,140.7614,complete,1857,2021-01-01,2026-01-31,
+Hokkaido - Shiribeshi|Suttsu|42.796900|140.217200,2,Hokkaido - Shiribeshi,Suttsu,42.7969,140.2172,complete,1857,2021-01-01,2026-01-31,
+Hokkaido - Shiribeshi|Kimobetsu|42.733300|140.883300,3,Hokkaido - Shiribeshi,Kimobetsu,42.7333,140.8833,complete,1857,2021-01-01,2026-01-31,
+Hokkaido-Oshima|Hakodate|41.768700|140.728800,0,Hokkaido-Oshima,Hakodate,41.7687,140.7288,complete,1857,2021-01-01,2026-01-31,
+Hokkaido - Oshima|Matsumae|41.430600|140.107800,1,Hokkaido - Oshima,Matsumae,41.4306,140.1078,failed,0,2021-01-01,2026-01-31,Request failed after 5 attempts: None
+Hokkaido - Oshima|Mori|42.105800|140.574400,2,Hokkaido - Oshima,Mori,42.1058,140.5744,complete,1857,2021-01-01,2026-01-31,
+Hokkaido - Oshima|Kikonai|41.666700|140.433300,3,Hokkaido - Oshima,Kikonai,41.6667,140.4333,complete,1857,2021-01-01,2026-01-31,
+Hokkaido-Soya|Wakkanai|45.415600|141.673300,0,Hokkaido-Soya,Wakkanai,45.4156,141.6733,failed,0,2021-01-01,2026-01-31,Request failed after 5 attempts: None
+Hokkaido - Soya|Kafuka (Rebun Island)|45.301100|141.039200,1,Hokkaido - Soya,Kafuka (Rebun Island),45.3011,141.0392,failed,0,2021-01-01,2026-01-31,Request failed after 5 attempts: None
+Hokkaido - Soya|Hamatonbetsu|45.066700|141.733300,2,Hokkaido - Soya,Hamatonbetsu,45.0667,141.7333,failed,0,2021-01-01,2026-01-31,Request failed after 5 attempts: None
+Hokkaido - Soya|Esashi (Kitamiesashi)|44.933300|142.583300,3,Hokkaido - Soya,Esashi (Kitamiesashi),44.9333,142.5833,failed,0,2021-01-01,2026-01-31,Request failed after 5 attempts: None
+Hokkaido-Kamikawa|Asahikawa|43.770600|142.365000,0,Hokkaido-Kamikawa,Asahikawa,43.7706,142.365,failed,0,2021-01-01,2026-01-31,Request failed after 5 attempts: None
+Hokkaido - Kamikawa|Furano|43.343900|142.383100,1,Hokkaido - Kamikawa,Furano,43.3439,142.3831,failed,0,2021-01-01,2026-01-31,Request failed after 5 attempts: None
+Hokkaido - Kamikawa|Nayoro|44.358300|142.458900,2,Hokkaido - Kamikawa,Nayoro,44.3583,142.4589,failed,0,2021-01-01,2026-01-31,Request failed after 5 attempts: None
+Hokkaido - Kamikawa|Shimukappu|43.150000|142.766700,3,Hokkaido - Kamikawa,Shimukappu,43.15,142.7667,failed,0,2021-01-01,2026-01-31,Request failed after 5 attempts: None
+Hokkaido-Hidaka|Urakawa|42.163300|142.778900,0,Hokkaido-Hidaka,Urakawa,42.1633,142.7789,failed,0,2021-01-01,2026-01-31,Request failed after 5 attempts: None
+Hokkaido - Hidaka|Shizunai (Shinhidaka)|42.333900|142.360800,1,Hokkaido - Hidaka,Shizunai (Shinhidaka),42.3339,142.3608,failed,0,2021-01-01,2026-01-31,Request failed after 5 attempts: None
+Hokkaido - Hidaka|Erimomisaki|41.923600|143.233300,2,Hokkaido - Hidaka,Erimomisaki,41.9236,143.2333,failed,0,2021-01-01,2026-01-31,Request failed after 5 attempts: None
+Hokkaido - Hidaka|Hidakamonbetsu|42.533300|142.033300,3,Hokkaido - Hidaka,Hidakamonbetsu,42.5333,142.0333,failed,0,2021-01-01,2026-01-31,Request failed after 5 attempts: None
+Hokkaido-Rumoi|Rumoi|43.941100|141.642800,0,Hokkaido-Rumoi,Rumoi,43.9411,141.6428,failed,0,2021-01-01,2026-01-31,Request failed after 5 attempts: None
+Hokkaido - Rumoi|Enbetsu|44.733300|141.783300,1,Hokkaido - Rumoi,Enbetsu,44.7333,141.7833,failed,0,2021-01-01,2026-01-31,Request failed after 5 attempts: None
+Hokkaido - Rumoi|Mashike|43.854400|141.513600,2,Hokkaido - Rumoi,Mashike,43.8544,141.5136,failed,0,2021-01-01,2026-01-31,Request failed after 5 attempts: None
+Nara|Uda (Oouda)|34.508900|135.932800,3,Nara,Uda (Oouda),34.5089,135.9328,complete,1857,2021-01-01,2026-01-31,
+Yamanashi|Kofu|35.664200|138.568400,0,Yamanashi,Kofu,35.6642,138.5684,complete,1857,2021-01-01,2026-01-31,
+Hokkaido - Oshima|Matsumae|41.430600|140.107800,1,Hokkaido - Oshima,Matsumae,41.4306,140.1078,complete,1857,2021-01-01,2026-01-31,
+Hokkaido-Soya|Wakkanai|45.415600|141.673300,0,Hokkaido-Soya,Wakkanai,45.4156,141.6733,complete,1857,2021-01-01,2026-01-31,
+Hokkaido - Soya|Kafuka (Rebun Island)|45.301100|141.039200,1,Hokkaido - Soya,Kafuka (Rebun Island),45.3011,141.0392,complete,1857,2021-01-01,2026-01-31,
+Hokkaido - Soya|Hamatonbetsu|45.066700|141.733300,2,Hokkaido - Soya,Hamatonbetsu,45.0667,141.7333,complete,1857,2021-01-01,2026-01-31,
+Hokkaido - Soya|Esashi (Kitamiesashi)|44.933300|142.583300,3,Hokkaido - Soya,Esashi (Kitamiesashi),44.9333,142.5833,complete,1857,2021-01-01,2026-01-31,
+Hokkaido-Kamikawa|Asahikawa|43.770600|142.365000,0,Hokkaido-Kamikawa,Asahikawa,43.7706,142.365,complete,1857,2021-01-01,2026-01-31,
+Hokkaido - Kamikawa|Furano|43.343900|142.383100,1,Hokkaido - Kamikawa,Furano,43.3439,142.3831,complete,1857,2021-01-01,2026-01-31,
+Hokkaido - Kamikawa|Nayoro|44.358300|142.458900,2,Hokkaido - Kamikawa,Nayoro,44.3583,142.4589,complete,1857,2021-01-01,2026-01-31,
+Hokkaido - Kamikawa|Shimukappu|43.150000|142.766700,3,Hokkaido - Kamikawa,Shimukappu,43.15,142.7667,complete,1857,2021-01-01,2026-01-31,
+Hokkaido-Hidaka|Urakawa|42.163300|142.778900,0,Hokkaido-Hidaka,Urakawa,42.1633,142.7789,complete,1857,2021-01-01,2026-01-31,
+Hokkaido - Hidaka|Shizunai (Shinhidaka)|42.333900|142.360800,1,Hokkaido - Hidaka,Shizunai (Shinhidaka),42.3339,142.3608,failed,0,2021-01-01,2026-01-31,Request failed after 5 attempts: None
+Hokkaido - Hidaka|Erimomisaki|41.923600|143.233300,2,Hokkaido - Hidaka,Erimomisaki,41.9236,143.2333,complete,1857,2021-01-01,2026-01-31,
+Hokkaido - Hidaka|Hidakamonbetsu|42.533300|142.033300,3,Hokkaido - Hidaka,Hidakamonbetsu,42.5333,142.0333,complete,1857,2021-01-01,2026-01-31,
+Hokkaido-Rumoi|Rumoi|43.941100|141.642800,0,Hokkaido-Rumoi,Rumoi,43.9411,141.6428,complete,1857,2021-01-01,2026-01-31,
+Hokkaido - Rumoi|Enbetsu|44.733300|141.783300,1,Hokkaido - Rumoi,Enbetsu,44.7333,141.7833,complete,1857,2021-01-01,2026-01-31,
+Hokkaido - Rumoi|Mashike|43.854400|141.513600,2,Hokkaido - Rumoi,Mashike,43.8544,141.5136,complete,1857,2021-01-01,2026-01-31,
+Hokkaido - Rumoi|Shosanbetsu|44.300000|141.800000,3,Hokkaido - Rumoi,Shosanbetsu,44.3,141.8,complete,1857,2021-01-01,2026-01-31,
+Hokkaido-Sorachi|Iwamizawa|43.200000|141.783300,0,Hokkaido-Sorachi,Iwamizawa,43.2,141.7833,complete,1857,2021-01-01,2026-01-31,
+Hokkaido - Sorachi|Takikawa|43.549700|141.911400,1,Hokkaido - Sorachi,Takikawa,43.5497,141.9114,complete,1857,2021-01-01,2026-01-31,
+Hokkaido - Sorachi|Yubari|43.041700|141.975600,2,Hokkaido - Sorachi,Yubari,43.0417,141.9756,complete,1857,2021-01-01,2026-01-31,
+Hokkaido - Sorachi|Naganuma|43.070000|141.700000,3,Hokkaido - Sorachi,Naganuma,43.07,141.7,complete,1857,2021-01-01,2026-01-31,
+Hokkaido-Iburi|Tomakomai|42.637600|141.604400,0,Hokkaido-Iburi,Tomakomai,42.6376,141.6044,complete,1857,2021-01-01,2026-01-31,
+Hokkaido - Iburi|Muroran|42.315300|140.973600,1,Hokkaido - Iburi,Muroran,42.3153,140.9736,complete,1857,2021-01-01,2026-01-31,
+Hokkaido - Iburi|Date|42.483300|140.850000,2,Hokkaido - Iburi,Date,42.4833,140.85,failed,0,2021-01-01,2026-01-31,Request failed after 5 attempts: None
+Hokkaido - Iburi|Atsuma|42.733300|141.966700,3,Hokkaido - Iburi,Atsuma,42.7333,141.9667,complete,1857,2021-01-01,2026-01-31,
+Hokkaido-Hiyama|Esashi (Hiyama)|41.869700|140.128100,0,Hokkaido-Hiyama,Esashi (Hiyama),41.8697,140.1281,complete,1857,2021-01-01,2026-01-31,
+Hokkaido - Hiyama|Setana|42.450000|139.850000,1,Hokkaido - Hiyama,Setana,42.45,139.85,complete,1857,2021-01-01,2026-01-31,
+Hokkaido - Hiyama|Okushiri Island|42.150000|139.516700,2,Hokkaido - Hiyama,Okushiri Island,42.15,139.5167,complete,1857,2021-01-01,2026-01-31,
+Hokkaido - Hiyama|Imagane|42.050000|140.116700,3,Hokkaido - Hiyama,Imagane,42.05,140.1167,complete,1857,2021-01-01,2026-01-31,
+Hokkaido-Tokachi|Obihiro|42.923700|143.196400,0,Hokkaido-Tokachi,Obihiro,42.9237,143.1964,complete,1857,2021-01-01,2026-01-31,
+Hokkaido - Tokachi|Ikeda|42.933300|143.450000,1,Hokkaido - Tokachi,Ikeda,42.9333,143.45,complete,1857,2021-01-01,2026-01-31,
+Hokkaido - Tokachi|Ashoro|43.233300|143.516700,2,Hokkaido - Tokachi,Ashoro,43.2333,143.5167,complete,1857,2021-01-01,2026-01-31,
+Hokkaido - Tokachi|Hiroo|42.288900|143.333300,3,Hokkaido - Tokachi,Hiroo,42.2889,143.3333,complete,1857,2021-01-01,2026-01-31,
+Hokkaido-Okhotsk|Abashiri|44.020600|144.273300,0,Hokkaido-Okhotsk,Abashiri,44.0206,144.2733,complete,1857,2021-01-01,2026-01-31,
+Hokkaido - Okhotsk|Kitami|43.802800|143.894200,1,Hokkaido - Okhotsk,Kitami,43.8028,143.8942,complete,1857,2021-01-01,2026-01-31,
+Hokkaido - Okhotsk|Monbetsu|44.353600|143.353600,2,Hokkaido - Okhotsk,Monbetsu,44.3536,143.3536,complete,1857,2021-01-01,2026-01-31,
+Hokkaido - Okhotsk|Shari|43.909200|144.668300,3,Hokkaido - Okhotsk,Shari,43.9092,144.6683,failed,0,2021-01-01,2026-01-31,Request failed after 5 attempts: None
+Hokkaido-Nemuro|Nemuro|43.330600|145.582800,0,Hokkaido-Nemuro,Nemuro,43.3306,145.5828,complete,1857,2021-01-01,2026-01-31,
+Hokkaido - Nemuro|Rausu|44.038900|145.123600,1,Hokkaido - Nemuro,Rausu,44.0389,145.1236,complete,1857,2021-01-01,2026-01-31,
+Hokkaido - Nemuro|Bekkai|43.433300|145.116700,2,Hokkaido - Nemuro,Bekkai,43.4333,145.1167,complete,1857,2021-01-01,2026-01-31,
+Hokkaido - Nemuro|Nakashibetsu|43.533300|144.966700,3,Hokkaido - Nemuro,Nakashibetsu,43.5333,144.9667,complete,1857,2021-01-01,2026-01-31,
+Hokkaido-Kushiro|Kushiro|42.984900|144.382000,0,Hokkaido-Kushiro,Kushiro,42.9849,144.382,complete,1857,2021-01-01,2026-01-31,
+Hokkaido - Kushiro|Teshikaga|43.483300|144.416700,1,Hokkaido - Kushiro,Teshikaga,43.4833,144.4167,complete,1857,2021-01-01,2026-01-31,
+Hokkaido - Kushiro|Akankohan|43.450000|144.050000,2,Hokkaido - Kushiro,Akankohan,43.45,144.05,complete,1857,2021-01-01,2026-01-31,
+Hokkaido - Kushiro|Shiranuka|42.916700|143.916700,3,Hokkaido - Kushiro,Shiranuka,42.9167,143.9167,complete,1857,2021-01-01,2026-01-31,
+Hokkaido - Hidaka|Shizunai (Shinhidaka)|42.333900|142.360800,1,Hokkaido - Hidaka,Shizunai (Shinhidaka),42.3339,142.3608,failed,0,2021-01-01,2026-01-31,Request failed after 5 attempts: None
+Hokkaido - Iburi|Date|42.483300|140.850000,2,Hokkaido - Iburi,Date,42.4833,140.85,failed,0,2021-01-01,2026-01-31,Request failed after 5 attempts: None
+Hokkaido - Okhotsk|Shari|43.909200|144.668300,3,Hokkaido - Okhotsk,Shari,43.9092,144.6683,failed,0,2021-01-01,2026-01-31,Request failed after 5 attempts: None

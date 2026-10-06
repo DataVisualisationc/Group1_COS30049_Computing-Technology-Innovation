@@ -32,3 +32,108 @@ Tokushima|Tokushima|34.065800|134.559400,0,Tokushima,Tokushima,34.0658,134.5594,
 Shiga|Hikone|35.274400|136.259400,1,Shiga,Hikone,35.2744,136.2594,Request failed after 5 attempts: None
 Shiga|Nagahama|35.383100|136.279700,2,Shiga,Nagahama,35.3831,136.2797,Request failed after 5 attempts: None
 Shiga|Shigaraki|34.850000|136.166700,3,Shiga,Shigaraki,34.85,136.1667,Request failed after 5 attempts: None
+Shiga|Hikone|35.274400|136.259400,1,Shiga,Hikone,35.2744,136.2594,Request failed after 5 attempts: None
+Shiga|Nagahama|35.383100|136.279700,2,Shiga,Nagahama,35.3831,136.2797,Request failed after 5 attempts: None
+Shiga|Shigaraki|34.850000|136.166700,3,Shiga,Shigaraki,34.85,136.1667,Request failed after 5 attempts: None
+Mie|Tsu|34.730400|136.508600,0,Mie,Tsu,34.7304,136.5086,Request failed after 5 attempts: None
+Mie|Kuwana|35.066700|136.683300,1,Mie,Kuwana,35.0667,136.6833,Request failed after 5 attempts: None
+Mie|Kumano|33.888600|136.099400,2,Mie,Kumano,33.8886,136.0994,Request failed after 5 attempts: None
+Mie|Toba|34.486400|136.842200,3,Mie,Toba,34.4864,136.8422,Request failed after 5 attempts: None
+Nara|Nara|34.685100|135.804800,0,Nara,Nara,34.6851,135.8048,Request failed after 5 attempts: None
+Nara|Gojo|34.360800|135.700300,1,Nara,Gojo,34.3608,135.7003,Request failed after 5 attempts: None
+Nara|Kamikitayama|34.150000|135.950000,2,Nara,Kamikitayama,34.15,135.95,Request failed after 5 attempts: None
+Nara|Uda (Oouda)|34.508900|135.932800,3,Nara,Uda (Oouda),34.5089,135.9328,Request failed after 5 attempts: None
+Tokyo|Shinjuku|35.693800|139.703400,0,Tokyo,Shinjuku,35.6938,139.7034,Request failed after 5 attempts: None
+Tokyo|Hachioji|35.666400|139.316000,1,Tokyo,Hachioji,35.6664,139.316,Request failed after 5 attempts: None
+Tokyo|Tachikawa|35.698300|139.413700,2,Tokyo,Tachikawa,35.6983,139.4137,Request failed after 5 attempts: None
+Tokyo|Machida|35.548700|139.446700,3,Tokyo,Machida,35.5487,139.4467,Request failed after 5 attempts: None
+Tokyo|Ome|35.787800|139.275600,4,Tokyo,Ome,35.7878,139.2756,Request failed after 5 attempts: None
+Yamagata|Yamagata|38.240500|140.363400,0,Yamagata,Yamagata,38.2405,140.3634,Request failed after 5 attempts: None
+Yamagata|Tsuruoka|38.727200|139.826800,1,Yamagata,Tsuruoka,38.7272,139.8268,Request failed after 5 attempts: None
+Yamagata|Sakata|38.914400|139.836400,2,Yamagata,Sakata,38.9144,139.8364,Request failed after 5 attempts: None
+Yamagata|Yonezawa|37.922200|140.116700,3,Yamagata,Yonezawa,37.9222,140.1167,Request failed after 5 attempts: None
+Tochigi|Utsunomiya|36.555100|139.882800,0,Tochigi,Utsunomiya,36.5551,139.8828,Request failed after 5 attempts: None
+Tochigi|Nikko|36.719900|139.698200,1,Tochigi,Nikko,36.7199,139.6982,Request failed after 5 attempts: None
+Tochigi|Nasushiobara|36.962800|140.046100,2,Tochigi,Nasushiobara,36.9628,140.0461,Request failed after 5 attempts: None
+Tochigi|Oyama|36.314500|139.800400,3,Tochigi,Oyama,36.3145,139.8004,Request failed after 5 attempts: None
+Tochigi|Ashikaga|36.340600|139.449700,4,Tochigi,Ashikaga,36.3406,139.4497,Request failed after 5 attempts: None
+Toyama|Toyama|36.695300|137.211400,0,Toyama,Toyama,36.6953,137.2114,Request failed after 5 attempts: None
+Toyama|Takaoka|36.754600|137.025900,1,Toyama,Takaoka,36.7546,137.0259,Request failed after 5 attempts: None
+Toyama|Kurobe|36.871900|137.441200,2,Toyama,Kurobe,36.8719,137.4412,Request failed after 5 attempts: None
+Toyama|Uozu|36.828100|137.403300,3,Toyama,Uozu,36.8281,137.4033,Request failed after 5 attempts: None
+Yamanashi|Kofu|35.664200|138.568400,0,Yamanashi,Kofu,35.6642,138.5684,Request failed after 5 attempts: None
+Yamanashi|Fujiyoshida|35.487800|138.807500,1,Yamanashi,Fujiyoshida,35.4878,138.8075,Request failed after 5 attempts: None
+Yamanashi|Otsuki|35.611700|138.940000,2,Yamanashi,Otsuki,35.6117,138.94,Request failed after 5 attempts: None
+Yamanashi|Nirasaki|35.708300|138.455300,3,Yamanashi,Nirasaki,35.7083,138.4553,Request failed after 5 attempts: None
+Yamanashi|Fujikawaguchiko|35.512200|138.751400,4,Yamanashi,Fujikawaguchiko,35.5122,138.7514,Request failed after 5 attempts: None
+Wakayama|Wakayama|34.226100|135.167500,0,Wakayama,Wakayama,34.2261,135.1675,Request failed after 5 attempts: None
+Wakayama|Tanabe|33.733300|135.377800,1,Wakayama,Tanabe,33.7333,135.3778,Request failed after 5 attempts: None
+Wakayama|Shingu|33.724700|135.987200,2,Wakayama,Shingu,33.7247,135.9872,Request failed after 5 attempts: None
+Wakayama|Koya|34.213100|135.585800,3,Wakayama,Koya,34.2131,135.5858,Request failed after 5 attempts: None
+Wakayama|Gobo|33.889400|135.150800,4,Wakayama,Gobo,33.8894,135.1508,Request failed after 5 attempts: None
+Hokkaido-Ishikari|Sapporo|43.064200|141.346900,0,Hokkaido-Ishikari,Sapporo,43.0642,141.3469,Request failed after 5 attempts: None
+Hokkaido - Ishikari|Chitose|42.823600|141.652800,1,Hokkaido - Ishikari,Chitose,42.8236,141.6528,Request failed after 5 attempts: None
+Hokkaido - Ishikari|Shinshinotsu|43.283300|141.566700,2,Hokkaido - Ishikari,Shinshinotsu,43.2833,141.5667,Request failed after 5 attempts: None
+Hokkaido - Ishikari|Hamamasu|43.366700|141.350000,3,Hokkaido - Ishikari,Hamamasu,43.3667,141.35,Request failed after 5 attempts: None
+Hokkaido-Shiribeshi|Otaru|43.190700|140.994700,0,Hokkaido-Shiribeshi,Otaru,43.1907,140.9947,Request failed after 5 attempts: None
+Hokkaido - Shiribeshi|Kutchan|42.902200|140.761400,1,Hokkaido - Shiribeshi,Kutchan,42.9022,140.7614,Request failed after 5 attempts: None
+Hokkaido - Shiribeshi|Suttsu|42.796900|140.217200,2,Hokkaido - Shiribeshi,Suttsu,42.7969,140.2172,Request failed after 5 attempts: None
+Hokkaido - Shiribeshi|Kimobetsu|42.733300|140.883300,3,Hokkaido - Shiribeshi,Kimobetsu,42.7333,140.8833,Request failed after 5 attempts: None
+Hokkaido-Oshima|Hakodate|41.768700|140.728800,0,Hokkaido-Oshima,Hakodate,41.7687,140.7288,Request failed after 5 attempts: None
+Hokkaido - Oshima|Matsumae|41.430600|140.107800,1,Hokkaido - Oshima,Matsumae,41.4306,140.1078,Request failed after 5 attempts: None
+Hokkaido - Oshima|Mori|42.105800|140.574400,2,Hokkaido - Oshima,Mori,42.1058,140.5744,Request failed after 5 attempts: None
+Hokkaido - Oshima|Kikonai|41.666700|140.433300,3,Hokkaido - Oshima,Kikonai,41.6667,140.4333,Request failed after 5 attempts: None
+Hokkaido-Soya|Wakkanai|45.415600|141.673300,0,Hokkaido-Soya,Wakkanai,45.4156,141.6733,Request failed after 5 attempts: None
+Hokkaido - Soya|Kafuka (Rebun Island)|45.301100|141.039200,1,Hokkaido - Soya,Kafuka (Rebun Island),45.3011,141.0392,Request failed after 5 attempts: None
+Hokkaido - Soya|Hamatonbetsu|45.066700|141.733300,2,Hokkaido - Soya,Hamatonbetsu,45.0667,141.7333,Request failed after 5 attempts: None
+Hokkaido - Soya|Esashi (Kitamiesashi)|44.933300|142.583300,3,Hokkaido - Soya,Esashi (Kitamiesashi),44.9333,142.5833,Request failed after 5 attempts: None
+Hokkaido-Kamikawa|Asahikawa|43.770600|142.365000,0,Hokkaido-Kamikawa,Asahikawa,43.7706,142.365,Request failed after 5 attempts: None
+Hokkaido - Kamikawa|Furano|43.343900|142.383100,1,Hokkaido - Kamikawa,Furano,43.3439,142.3831,Request failed after 5 attempts: None
+Hokkaido - Kamikawa|Nayoro|44.358300|142.458900,2,Hokkaido - Kamikawa,Nayoro,44.3583,142.4589,Request failed after 5 attempts: None
+Hokkaido - Kamikawa|Shimukappu|43.150000|142.766700,3,Hokkaido - Kamikawa,Shimukappu,43.15,142.7667,Request failed after 5 attempts: None
+Hokkaido-Hidaka|Urakawa|42.163300|142.778900,0,Hokkaido-Hidaka,Urakawa,42.1633,142.7789,Request failed after 5 attempts: None
+Hokkaido - Hidaka|Shizunai (Shinhidaka)|42.333900|142.360800,1,Hokkaido - Hidaka,Shizunai (Shinhidaka),42.3339,142.3608,Request failed after 5 attempts: None
+Hokkaido - Hidaka|Erimomisaki|41.923600|143.233300,2,Hokkaido - Hidaka,Erimomisaki,41.9236,143.2333,Request failed after 5 attempts: None
+Hokkaido - Hidaka|Hidakamonbetsu|42.533300|142.033300,3,Hokkaido - Hidaka,Hidakamonbetsu,42.5333,142.0333,Request failed after 5 attempts: None
+Hokkaido-Rumoi|Rumoi|43.941100|141.642800,0,Hokkaido-Rumoi,Rumoi,43.9411,141.6428,Request failed after 5 attempts: None
+Hokkaido - Rumoi|Enbetsu|44.733300|141.783300,1,Hokkaido - Rumoi,Enbetsu,44.7333,141.7833,Request failed after 5 attempts: None
+Hokkaido - Rumoi|Mashike|43.854400|141.513600,2,Hokkaido - Rumoi,Mashike,43.8544,141.5136,Request failed after 5 attempts: None
+Hokkaido - Rumoi|Shosanbetsu|44.300000|141.800000,3,Hokkaido - Rumoi,Shosanbetsu,44.3,141.8,Request failed after 5 attempts: None
+Hokkaido-Sorachi|Iwamizawa|43.200000|141.783300,0,Hokkaido-Sorachi,Iwamizawa,43.2,141.7833,Request failed after 5 attempts: None
+Hokkaido - Sorachi|Takikawa|43.549700|141.911400,1,Hokkaido - Sorachi,Takikawa,43.5497,141.9114,Request failed after 5 attempts: None
+Hokkaido - Sorachi|Yubari|43.041700|141.975600,2,Hokkaido - Sorachi,Yubari,43.0417,141.9756,Request failed after 5 attempts: None
+Hokkaido - Sorachi|Naganuma|43.070000|141.700000,3,Hokkaido - Sorachi,Naganuma,43.07,141.7,Request failed after 5 attempts: None
+Hokkaido-Iburi|Tomakomai|42.637600|141.604400,0,Hokkaido-Iburi,Tomakomai,42.6376,141.6044,Request failed after 5 attempts: None
+Hokkaido - Iburi|Muroran|42.315300|140.973600,1,Hokkaido - Iburi,Muroran,42.3153,140.9736,Request failed after 5 attempts: None
+Hokkaido - Iburi|Date|42.483300|140.850000,2,Hokkaido - Iburi,Date,42.4833,140.85,Request failed after 5 attempts: None
+Hokkaido - Iburi|Atsuma|42.733300|141.966700,3,Hokkaido - Iburi,Atsuma,42.7333,141.9667,Request failed after 5 attempts: None
+Hokkaido-Hiyama|Esashi (Hiyama)|41.869700|140.128100,0,Hokkaido-Hiyama,Esashi (Hiyama),41.8697,140.1281,Request failed after 5 attempts: None
+Hokkaido - Hiyama|Setana|42.450000|139.850000,1,Hokkaido - Hiyama,Setana,42.45,139.85,Request failed after 5 attempts: None
+Hokkaido - Hiyama|Okushiri Island|42.150000|139.516700,2,Hokkaido - Hiyama,Okushiri Island,42.15,139.5167,Request failed after 5 attempts: None
+Hokkaido - Hiyama|Imagane|42.050000|140.116700,3,Hokkaido - Hiyama,Imagane,42.05,140.1167,Request failed after 5 attempts: None
+Hokkaido-Tokachi|Obihiro|42.923700|143.196400,0,Hokkaido-Tokachi,Obihiro,42.9237,143.1964,Request failed after 5 attempts: None
+Hokkaido - Tokachi|Ikeda|42.933300|143.450000,1,Hokkaido - Tokachi,Ikeda,42.9333,143.45,Request failed after 5 attempts: None
+Nara|Uda (Oouda)|34.508900|135.932800,3,Nara,Uda (Oouda),34.5089,135.9328,Request failed after 5 attempts: None
+Yamanashi|Kofu|35.664200|138.568400,0,Yamanashi,Kofu,35.6642,138.5684,Request failed after 5 attempts: None
+Hokkaido - Oshima|Matsumae|41.430600|140.107800,1,Hokkaido - Oshima,Matsumae,41.4306,140.1078,Request failed after 5 attempts: None
+Hokkaido-Soya|Wakkanai|45.415600|141.673300,0,Hokkaido-Soya,Wakkanai,45.4156,141.6733,Request failed after 5 attempts: None
+Hokkaido - Soya|Kafuka (Rebun Island)|45.301100|141.039200,1,Hokkaido - Soya,Kafuka (Rebun Island),45.3011,141.0392,Request failed after 5 attempts: None
+Hokkaido - Soya|Hamatonbetsu|45.066700|141.733300,2,Hokkaido - Soya,Hamatonbetsu,45.0667,141.7333,Request failed after 5 attempts: None
+Hokkaido - Soya|Esashi (Kitamiesashi)|44.933300|142.583300,3,Hokkaido - Soya,Esashi (Kitamiesashi),44.9333,142.5833,Request failed after 5 attempts: None
+Hokkaido-Kamikawa|Asahikawa|43.770600|142.365000,0,Hokkaido-Kamikawa,Asahikawa,43.7706,142.365,Request failed after 5 attempts: None
+Hokkaido - Kamikawa|Furano|43.343900|142.383100,1,Hokkaido - Kamikawa,Furano,43.3439,142.3831,Request failed after 5 attempts: None
+Hokkaido - Kamikawa|Nayoro|44.358300|142.458900,2,Hokkaido - Kamikawa,Nayoro,44.3583,142.4589,Request failed after 5 attempts: None
+Hokkaido - Kamikawa|Shimukappu|43.150000|142.766700,3,Hokkaido - Kamikawa,Shimukappu,43.15,142.7667,Request failed after 5 attempts: None
+Hokkaido-Hidaka|Urakawa|42.163300|142.778900,0,Hokkaido-Hidaka,Urakawa,42.1633,142.7789,Request failed after 5 attempts: None
+Hokkaido - Hidaka|Shizunai (Shinhidaka)|42.333900|142.360800,1,Hokkaido - Hidaka,Shizunai (Shinhidaka),42.3339,142.3608,Request failed after 5 attempts: None
+Hokkaido - Hidaka|Erimomisaki|41.923600|143.233300,2,Hokkaido - Hidaka,Erimomisaki,41.9236,143.2333,Request failed after 5 attempts: None
+Hokkaido - Hidaka|Hidakamonbetsu|42.533300|142.033300,3,Hokkaido - Hidaka,Hidakamonbetsu,42.5333,142.0333,Request failed after 5 attempts: None
+Hokkaido-Rumoi|Rumoi|43.941100|141.642800,0,Hokkaido-Rumoi,Rumoi,43.9411,141.6428,Request failed after 5 attempts: None
+Hokkaido - Rumoi|Enbetsu|44.733300|141.783300,1,Hokkaido - Rumoi,Enbetsu,44.7333,141.7833,Request failed after 5 attempts: None
+Hokkaido - Rumoi|Mashike|43.854400|141.513600,2,Hokkaido - Rumoi,Mashike,43.8544,141.5136,Request failed after 5 attempts: None
+Hokkaido - Hidaka|Shizunai (Shinhidaka)|42.333900|142.360800,1,Hokkaido - Hidaka,Shizunai (Shinhidaka),42.3339,142.3608,Request failed after 5 attempts: None
+Hokkaido - Iburi|Date|42.483300|140.850000,2,Hokkaido - Iburi,Date,42.4833,140.85,Request failed after 5 attempts: None
+Hokkaido - Okhotsk|Shari|43.909200|144.668300,3,Hokkaido - Okhotsk,Shari,43.9092,144.6683,Request failed after 5 attempts: None
+Hokkaido - Hidaka|Shizunai (Shinhidaka)|42.333900|142.360800,1,Hokkaido - Hidaka,Shizunai (Shinhidaka),42.3339,142.3608,Request failed after 5 attempts: None
+Hokkaido - Iburi|Date|42.483300|140.850000,2,Hokkaido - Iburi,Date,42.4833,140.85,Request failed after 5 attempts: None
+Hokkaido - Okhotsk|Shari|43.909200|144.668300,3,Hokkaido - Okhotsk,Shari,43.9092,144.6683,Request failed after 5 attempts: None
