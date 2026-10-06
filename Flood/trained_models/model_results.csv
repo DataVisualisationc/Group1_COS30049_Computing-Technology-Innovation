@@ -1,0 +1,4 @@
+Model,Accuracy,Macro Precision,Macro Recall,Macro F1
+CART,1.0,1.0,1.0,1.0
+ID3-style Entropy Tree,1.0,1.0,1.0,1.0
+Gradient Boosting,0.9998410932782457,0.9999453731017153,0.9982456140350878,0.9990931768367872
