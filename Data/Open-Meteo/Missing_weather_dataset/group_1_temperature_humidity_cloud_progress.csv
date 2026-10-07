@@ -192,16 +192,5 @@ Shiga|Otsu|35.004400|135.868600,0,Shiga,Otsu,35.0044,135.8686,complete,1857,2021
 Shiga|Hikone|35.274400|136.259400,1,Shiga,Hikone,35.2744,136.2594,failed,0,2021-01-01,2026-01-31,Request failed after 5 attempts: None
 Shiga|Nagahama|35.383100|136.279700,2,Shiga,Nagahama,35.3831,136.2797,failed,0,2021-01-01,2026-01-31,Request failed after 5 attempts: None
 Shiga|Shigaraki|34.850000|136.166700,3,Shiga,Shigaraki,34.85,136.1667,failed,0,2021-01-01,2026-01-31,Request failed after 5 attempts: None
-Shiga|Hikone|35.274400|136.259400,1,Shiga,Hikone,35.2744,136.2594,complete,1857,2021-01-01,2026-01-31,
-Shiga|Nagahama|35.383100|136.279700,2,Shiga,Nagahama,35.3831,136.2797,complete,1857,2021-01-01,2026-01-31,
-Shiga|Shigaraki|34.850000|136.166700,3,Shiga,Shigaraki,34.85,136.1667,complete,1857,2021-01-01,2026-01-31,
-Mie|Tsu|34.730400|136.508600,0,Mie,Tsu,34.7304,136.5086,complete,1857,2021-01-01,2026-01-31,
-Mie|Kuwana|35.066700|136.683300,1,Mie,Kuwana,35.0667,136.6833,complete,1857,2021-01-01,2026-01-31,
-Mie|Kumano|33.888600|136.099400,2,Mie,Kumano,33.8886,136.0994,complete,1857,2021-01-01,2026-01-31,
-Mie|Toba|34.486400|136.842200,3,Mie,Toba,34.4864,136.8422,complete,1857,2021-01-01,2026-01-31,
-Nara|Nara|34.685100|135.804800,0,Nara,Nara,34.6851,135.8048,complete,1857,2021-01-01,2026-01-31,
-Nara|Gojo|34.360800|135.700300,1,Nara,Gojo,34.3608,135.7003,failed,0,2021-01-01,2026-01-31,Request failed after 5 attempts: None
-Nara|Kamikitayama|34.150000|135.950000,2,Nara,Kamikitayama,34.15,135.95,complete,1857,2021-01-01,2026-01-31,
-Nara|Uda (Oouda)|34.508900|135.932800,3,Nara,Uda (Oouda),34.5089,135.9328,complete,1857,2021-01-01,2026-01-31,
-Tokyo|Shinjuku|35.693800|139.703400,0,Tokyo,Shinjuku,35.6938,139.7034,complete,1857,2021-01-01,2026-01-31,
-Tokyo|Hachioji|35.666400|139.316000,1,Tokyo,Hachioji,35.6664,139.316,complete,1857,2021-01-01,2026-01-31,
+Shiga|Hikone|35.274400|136.259400,1,Shiga,Hikone,35.2744,136.2594,failed,0,2021-01-01,2026-01-31,Request failed after 5 attempts: None
+Shiga|Nagahama|35.383100|136.279700,2,Shiga,Nagahama,35.3831,136.2797,failed,0,2021-01-01,2026-01-31,"Request failed after 5 attempts: HTTPSConnectionPool(host='archive-api.open-meteo.com', port=443): Max retries exceeded with url: /v1/archive?latitude=35.3831&longitude=136.2797&start_date=2021-01-01&end_date=2026-01-31&daily=temperature_2m_mean%2Crelative_humidity_2m_mean%2Crelative_humidity_2m_max%2Crelative_humidity_2m_min%2Cdew_point_2m_min%2Ccloud_cover_mean%2Ccloud_cover_max%2Ccloud_cover_min&timezone=Asia%2FTokyo&cell_selection=nearest (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x0000022E8E701B20>, 'Connection to archive-api.open-meteo.com timed out. (connect timeout=120)'))"
