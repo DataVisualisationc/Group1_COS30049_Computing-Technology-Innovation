@@ -1,2 +1,3 @@
 *.joblib filter=lfs diff=lfs merge=lfs -text
 *.zip filter=lfs diff=lfs merge=lfs -text
+Data/Open-Meteo/Missing_weather_dataset/group_1_temperature_humidity_cloud_2021_2026.csv filter=lfs diff=lfs merge=lfs -text
