@@ -77,3 +77,10 @@ Copy your existing `.joblib` files and generated training/testing CSVs into:
 ```text
 training/trained_models/
 ```
+
+## Classification input / output
+
+- **X:** `nearest_prefecture`, `year`, `month`, `day`, `openmeteo_elevation`, and the daily Open-Meteo weather attributes listed in `model_input_output.md`.
+- **y:** `risk` (Low / Moderate / High). Labels are based on days before confirmed JMA landfall: Day -3 Low, Day -2 Moderate, Day -1/0 High.
+- **Split:** 80%/20% by `landfall_event_id`, not individual rows.
+- **Note:** This dataset contains only sequences associated with confirmed landfalls. Weather-only classification on these rows is **not validated as a general future typhoon occurrence/landfall predictor**. It also assumes a meaningful future `nearest_prefecture` is available from a separate trajectory model.
