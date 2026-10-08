@@ -122,7 +122,7 @@ def load_completed_keys(progress_file):
         return set()
 
     try:
-        progress = pd.read_csv(progress_file)
+        progress = pd.read_csv(progress_file, encoding="utf-16")
 
         if "town_key" not in progress.columns:
             return set()
