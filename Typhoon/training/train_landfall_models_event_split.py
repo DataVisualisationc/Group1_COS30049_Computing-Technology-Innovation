@@ -279,196 +279,64 @@ print(
 
 
 # ============================================================
-# COLUMNS NOT USED FOR TRAINING
+# EXPLICIT WEATHER-ONLY FEATURE ALLOWLIST
+# No JMA storm attributes or identifiers are used as X.
+# The original CSV is preserved for event grouping and labels.
 # ============================================================
 
-DROP_COLUMNS = [
-
-    # --------------------------------------------------------
-    # TARGET
-    # --------------------------------------------------------
-
-    "risk",
-
-
-    # --------------------------------------------------------
-    # DIRECT LABEL LEAKAGE
-    # --------------------------------------------------------
-
-    "days_before_landfall",
-    "relative_day",
-    "is_landfall_day",
-    "landfall",
-
-
-    # --------------------------------------------------------
-    # LANDFALL EVENT INFORMATION
-    # --------------------------------------------------------
-
-    "landfall_event_id",
-    "landfall_datetime",
-    "landfall_date",
-
-
-    # --------------------------------------------------------
-    # RAW DATE / TIME IDENTIFIERS
-    # --------------------------------------------------------
-
-    "datetime",
-    "date",
-    "datetime_yymmddhh",
-
-
-    # --------------------------------------------------------
-    # HOUR
-    #
-    # Removed because we are using DAILY data.
-    # --------------------------------------------------------
-
-    "hour",
-
-
-    # --------------------------------------------------------
-    # STORM IDENTIFIERS
-    # --------------------------------------------------------
-
-    "intl_id",
-    "storm_number",
-    "storm_name",
-    "last_revision_date",
-
-
-    # --------------------------------------------------------
-    # RAW LOCATION
-    #
-    # UI uses prefecture instead.
-    # --------------------------------------------------------
-
-    "latitude",
-    "longitude",
-
-    "openmeteo_latitude",
-    "openmeteo_longitude",
-
-
-    # --------------------------------------------------------
-    # DISTANCE
-    #
-    # UI will not require user to provide distance.
-    # --------------------------------------------------------
-
-    "distance_to_prefecture_km",
-
-
-    # --------------------------------------------------------
-    # DATASET CONSTRUCTION / DOWNLOAD INFORMATION
-    # --------------------------------------------------------
-
-    "complete_4day_sequence",
-    "row_key",
-    "weather_download_status",
-    "weather_error",
-    "openmeteo_timezone",
+FEATURE_COLUMNS = [
+    "nearest_prefecture",
+    "year",
+    "month",
+    "day",
+    "openmeteo_elevation",
+    "temperature_2m_mean",
+    "temperature_2m_max",
+    "temperature_2m_min",
+    "relative_humidity_2m_mean",
+    "relative_humidity_2m_max",
+    "relative_humidity_2m_min",
+    "dew_point_2m_mean",
+    "dew_point_2m_max",
+    "dew_point_2m_min",
+    "precipitation_sum",
+    "rain_sum",
+    "precipitation_hours",
+    "cloud_cover_mean",
+    "cloud_cover_max",
+    "cloud_cover_min",
+    "pressure_msl_mean",
+    "pressure_msl_max",
+    "pressure_msl_min",
+    "surface_pressure_mean",
+    "surface_pressure_max",
+    "surface_pressure_min",
+    "wind_speed_10m_mean",
+    "wind_speed_10m_max",
+    "wind_speed_10m_min",
+    "wind_gusts_10m_mean",
+    "wind_gusts_10m_max",
+    "wind_gusts_10m_min",
+    "wind_direction_10m_dominant",
+    "shortwave_radiation_sum",
 ]
 
+missing_features = [col for col in FEATURE_COLUMNS if col not in df.columns]
+if missing_features:
+    raise ValueError(f"Missing required weather/classifier features: {missing_features}")
 
-# ============================================================
-# IMPORTANT
-#
-# nearest_prefecture is NOT dropped.
-#
-# It will therefore be used as a categorical feature.
-# ============================================================
-
-
-# ============================================================
-# ONLY DROP COLUMNS THAT EXIST
-# ============================================================
-
-DROP_COLUMNS = [
-
-    column
-
-    for column in DROP_COLUMNS
-
-    if column in df.columns
-]
-
-
-# ============================================================
-# CREATE FEATURE LIST
-# ============================================================
-
-feature_columns = [
-
-    column
-
-    for column in df.columns
-
-    if column not in DROP_COLUMNS
-]
-
-
-# ============================================================
-# VERIFY FEATURE CONFIGURATION
-# ============================================================
-
-EXCLUDED_LOCATION_FEATURES = [
-
-    "latitude",
-    "longitude",
-    "openmeteo_latitude",
-    "openmeteo_longitude",
-    "distance_to_prefecture_km",
-    "hour"
-]
-
-
-for feature in EXCLUDED_LOCATION_FEATURES:
-
-    assert feature not in feature_columns, (
-        f"ERROR: {feature} should NOT be used."
-    )
-
-
-assert "nearest_prefecture" in feature_columns, (
-    "ERROR: nearest_prefecture should be used."
-)
-
-
-# ============================================================
-# DISPLAY EXACT FEATURES
-# ============================================================
+feature_columns = FEATURE_COLUMNS.copy()
+assert "nearest_prefecture" in feature_columns
+assert "risk" not in feature_columns
 
 print("\n" + "=" * 70)
-print("EXACT FEATURES USED FOR TRAINING")
+print("EXACT WEATHER-ONLY CLASSIFICATION FEATURES")
 print("=" * 70)
-
-
-for number, feature in enumerate(
-    feature_columns,
-    start=1
-):
-
-    print(
-        f"{number}. {feature}"
-    )
-
-
-print(
-    "\nTotal features:",
-    len(feature_columns)
-)
-
-
-print("\nConfirmed:")
-print("nearest_prefecture        = INCLUDED")
-print("hour                      = EXCLUDED")
-print("latitude                  = EXCLUDED")
-print("longitude                 = EXCLUDED")
-print("openmeteo_latitude        = EXCLUDED")
-print("openmeteo_longitude       = EXCLUDED")
-print("distance_to_prefecture_km = EXCLUDED")
+for number, feature in enumerate(feature_columns, start=1):
+    print(f"{number}. {feature}")
+print(f"\nTotal features: {len(feature_columns)}")
+print("JMA storm attributes: EXCLUDED from X")
+print("JMA event ID and risk label: retained for splitting/target only")
 
 
 # ============================================================

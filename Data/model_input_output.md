@@ -290,77 +290,76 @@ Random Forest Regressor - very safe - Gradient Boosting Regression
 
 **Machine Learning Model (Classification)**
 
--   Random Forest
--   CART / Decision Tree
--   Gradient Boosting Classifier
--   Support Vector Machine (SVM)
+- Random Forest
+- CART / Decision Tree
+- Gradient Boosting Classifier
+- Support Vector Machine (SVM)
 
-**Input (X)**
+**Input (X) — weather-only features plus location/date**
 
-The current classifier uses the remaining JMA and Open-Meteo features
-after leakage/unwanted columns are removed. Important retained inputs
-include:
-
-1.  `nearest_prefecture`
-2.  JMA typhoon attributes such as `grade`, `pressure`, `wind_speed`,
-    `indicator`, `dir_r50`, `r50_long`, `r50_short`, `dir_r30`,
-    `r30_long`, `r30_short`
-3.  `year`
-4.  `month`
-5.  `day`
-6.  `openmeteo_elevation`
-7.  `temperature_2m_mean`
-8.  `temperature_2m_max`
-9.  `temperature_2m_min`
-10. `relative_humidity_2m_mean`
-11. `relative_humidity_2m_max`
-12. `relative_humidity_2m_min`
-13. `dew_point_2m_mean`
-14. `dew_point_2m_max`
-15. `dew_point_2m_min`
-16. `precipitation_sum`
-17. `rain_sum`
-18. `precipitation_hours`
-19. `cloud_cover_mean`
-20. `cloud_cover_max`
-21. `cloud_cover_min`
-22. `pressure_msl_mean`
-23. `pressure_msl_max`
-24. `pressure_msl_min`
-25. `surface_pressure_mean`
-26. `surface_pressure_max`
-27. `surface_pressure_min`
-28. `wind_speed_10m_mean`
-29. `wind_speed_10m_max`
-30. `wind_speed_10m_min`
-31. `wind_gusts_10m_mean`
-32. `wind_gusts_10m_max`
-33. `wind_gusts_10m_min`
-34. `wind_direction_10m_dominant`
-35. `shortwave_radiation_sum`
-
-`nearest_prefecture` is retained as a categorical feature.
+1. `nearest_prefecture` — (created; derived from cyclone position, not a weather forecast)
+2. `year` — (created from date)
+3. `month` — (created from date)
+4. `day` — (created from date)
+5. `openmeteo_elevation` — (raw Open-Meteo/location metadata)
+6. `temperature_2m_mean` — (raw Open-Meteo/location metadata)
+7. `temperature_2m_max` — (raw Open-Meteo/location metadata)
+8. `temperature_2m_min` — (raw Open-Meteo/location metadata)
+9. `relative_humidity_2m_mean` — (raw Open-Meteo/location metadata)
+10. `relative_humidity_2m_max` — (raw Open-Meteo/location metadata)
+11. `relative_humidity_2m_min` — (raw Open-Meteo/location metadata)
+12. `dew_point_2m_mean` — (raw Open-Meteo/location metadata)
+13. `dew_point_2m_max` — (raw Open-Meteo/location metadata)
+14. `dew_point_2m_min` — (raw Open-Meteo/location metadata)
+15. `precipitation_sum` — (raw Open-Meteo/location metadata)
+16. `rain_sum` — (raw Open-Meteo/location metadata)
+17. `precipitation_hours` — (raw Open-Meteo/location metadata)
+18. `cloud_cover_mean` — (raw Open-Meteo/location metadata)
+19. `cloud_cover_max` — (raw Open-Meteo/location metadata)
+20. `cloud_cover_min` — (raw Open-Meteo/location metadata)
+21. `pressure_msl_mean` — (raw Open-Meteo/location metadata)
+22. `pressure_msl_max` — (raw Open-Meteo/location metadata)
+23. `pressure_msl_min` — (raw Open-Meteo/location metadata)
+24. `surface_pressure_mean` — (raw Open-Meteo/location metadata)
+25. `surface_pressure_max` — (raw Open-Meteo/location metadata)
+26. `surface_pressure_min` — (raw Open-Meteo/location metadata)
+27. `wind_speed_10m_mean` — (raw Open-Meteo/location metadata)
+28. `wind_speed_10m_max` — (raw Open-Meteo/location metadata)
+29. `wind_speed_10m_min` — (raw Open-Meteo/location metadata)
+30. `wind_gusts_10m_mean` — (raw Open-Meteo/location metadata)
+31. `wind_gusts_10m_max` — (raw Open-Meteo/location metadata)
+32. `wind_gusts_10m_min` — (raw Open-Meteo/location metadata)
+33. `wind_direction_10m_dominant` — (raw Open-Meteo/location metadata)
+34. `shortwave_radiation_sum` — (raw Open-Meteo/location metadata)
 
 **Output (y)**
 
-`risk`
+`risk`: Low / Moderate / High.
 
-1.  Low
-2.  Moderate
-3.  High
+- Day -3 before confirmed landfall: Low
+- Day -2: Moderate
+- Day -1 and Day 0: High
+
+**Excluded from classifier input (X)**
+
+- All JMA storm attributes, including `grade`, `pressure`, `wind_speed`, `indicator`, `dir_r50`, `r50_long`, `r50_short`, `dir_r30`, `r30_long`, `r30_short`.
+- Cyclone coordinates (`latitude`, `longitude`), storm identifiers, event dates, `days_before_landfall`, `relative_day`, `is_landfall_day`, `landfall`, and all other columns not explicitly listed above.
+- `landfall_event_id` is used only to keep events separate in training/testing, never as a feature.
 
 **Training / testing**
 
--   Split by `landfall_event_id` rather than individual rows to prevent
-    rows from the same landfall event appearing in both sets.
--   Numeric features: missing values are median-imputed and then
-    standardized with `StandardScaler`.
+- 80%/20% split by `landfall_event_id` (no same-event overlap).
+- Numeric missing values: median imputation; numeric scaling: `StandardScaler`.
+- `nearest_prefecture`: most-frequent imputation and one-hot encoding.
 
-**Status / notes**
+**Future prediction flow**
 
--   The current target is no longer based on mapping JMA `grade`
-    directly to Low/Medium/High.
--   Risk is based on the number of days before a confirmed JMA `#`
-    landfall event.
--   `nearest_prefecture` is used because the intended interface allows
-    the user to select a prefecture.
+`Weather LSTM -> forecast daily weather + trajectory LSTM -> future cyclone coordinates -> nearest_prefecture -> typhoon classifier -> risk`
+
+The trajectory LSTM is a separate **proposed** model and is not implemented in `train_landfall_models_event_split.py`. It requires a known active cyclone history. `nearest_prefecture` cannot be inferred from future local weather alone with the same meaning as a cyclone's nearest prefecture.
+
+**Important limitations**
+
+- This dataset is constructed around **confirmed landfall events only**. The three risk labels describe relative days to a known landfall, not calibrated typhoon occurrence probabilities for arbitrary dates or prefectures.
+- To predict future landfall risk generally, add representative non-landfall and no-typhoon examples, define the prediction horizon, and evaluate on held-out storms/time periods.
+- Ensure every weather feature is available at the intended forecast time; contemporaneous observed weather must not be used as if known in advance.
