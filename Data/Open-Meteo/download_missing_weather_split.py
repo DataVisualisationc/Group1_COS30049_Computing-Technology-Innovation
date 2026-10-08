@@ -121,32 +121,45 @@ def load_completed_keys(progress_file):
     if not os.path.exists(progress_file):
         return set()
 
-    try:
-        progress = pd.read_csv(progress_file, encoding="utf-16")
+    # Try the common encodings used by the progress files.
+    for encoding in ["utf-8-sig", "utf-16"]:
+        try:
+            progress = pd.read_csv(
+                progress_file,
+                encoding=encoding
+            )
 
-        if "town_key" not in progress.columns:
+            if "town_key" not in progress.columns:
+                return set()
+
+            if "status" not in progress.columns:
+                return set()
+
+            completed = progress[
+                progress["status"]
+                .astype(str)
+                .str.lower()
+                .eq("complete")
+            ]
+
+            return set(
+                completed["town_key"].astype(str)
+            )
+
+        except UnicodeError:
+            # Try the next encoding
+            continue
+
+        except Exception as exc:
+            print(
+                f"WARNING: Could not read {progress_file}: {exc}"
+            )
             return set()
 
-        if "status" not in progress.columns:
-            return set()
-
-        completed = progress[
-            progress["status"]
-            .astype(str)
-            .str.lower()
-            .eq("complete")
-        ]
-
-        return set(
-            completed["town_key"].astype(str)
-        )
-
-    except Exception as exc:
-        print(
-            f"WARNING: Could not read {progress_file}: {exc}"
-        )
-        return set()
-
+    print(
+        f"WARNING: Could not determine encoding for {progress_file}"
+    )
+    return set()
 
 # ============================================================
 # OPEN-METEO REQUEST
