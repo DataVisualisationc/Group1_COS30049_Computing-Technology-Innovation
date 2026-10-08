@@ -1,2 +1,27 @@
 ﻿town_key,source_index,prefecture,town,latitude,longitude,error
 Yamaguchi|Ube|33.951500|131.246700,4,Yamaguchi,Ube,33.9515,131.2467,Request failed after 5 attempts: None
+Miyazaki|Kobayashi|32.000000|130.983300,4,Miyazaki,Kobayashi,32.0,130.9833,Request failed after 5 attempts: None
+Oita|Oita|33.238200|131.612600,0,Oita,Oita,33.2382,131.6126,Expecting value: line 1 column 1 (char 0)
+Oita|Nakatsu|33.597500|131.187500,1,Oita,Nakatsu,33.5975,131.1875,Expecting value: line 1 column 1 (char 0)
+Oita|Saeki|32.960300|131.899400,2,Oita,Saeki,32.9603,131.8994,Expecting value: line 1 column 1 (char 0)
+Nagasaki|Tsushima (Izuhara)|34.200000|129.283300,3,Nagasaki,Tsushima (Izuhara),34.2,129.2833,Request failed after 5 attempts: None
+Nagasaki|Fukue (Goto Islands)|32.696100|128.839400,4,Nagasaki,Fukue (Goto Islands),32.6961,128.8394,Request failed after 5 attempts: None
+Okinawa|Naha|26.212400|127.680900,0,Okinawa,Naha,26.2124,127.6809,Request failed after 5 attempts: None
+Okinawa|Ishigakishima|24.344800|124.157200,1,Okinawa,Ishigakishima,24.3448,124.1572,Request failed after 5 attempts: None
+Okinawa|Miyakoshima|24.805600|125.281400,2,Okinawa,Miyakoshima,24.8056,125.2814,Request failed after 5 attempts: None
+Okinawa|Nago|26.591100|127.977300,3,Okinawa,Nago,26.5911,127.9773,Request failed after 5 attempts: None
+Okinawa|Yonagunishima|24.466700|123.016700,4,Okinawa,Yonagunishima,24.4667,123.0167,Request failed after 5 attempts: None
+Okinawa|Miyakoshima|24.805600|125.281400,2,Okinawa,Miyakoshima,24.8056,125.2814,Request failed after 5 attempts: None
+Shimane|Saigo (Oki Islands)|36.205800|133.328300,4,Shimane,Saigo (Oki Islands),36.2058,133.3283,Expecting value: line 1 column 1 (char 0)
+Kagawa|Takamatsu|34.342800|134.046600,0,Kagawa,Takamatsu,34.3428,134.0466,Expecting value: line 1 column 1 (char 0)
+Ehime|Matsuyama|33.839200|132.765800,0,Ehime,Matsuyama,33.8392,132.7658,Request failed after 5 attempts: None
+Ehime|Uwajima|33.223300|132.560000,1,Ehime,Uwajima,33.2233,132.56,Request failed after 5 attempts: None
+Ehime|Niihama|33.960300|133.283600,2,Ehime,Niihama,33.9603,133.2836,Request failed after 5 attempts: None
+Ehime|Imabari|34.065600|132.997800,3,Ehime,Imabari,34.0656,132.9978,Request failed after 5 attempts: None
+Hiroshima|Hiroshima|34.385300|132.455300,0,Hiroshima,Hiroshima,34.3853,132.4553,Request failed after 5 attempts: None
+Hiroshima|Fukuyama|34.485800|133.362500,1,Hiroshima,Fukuyama,34.4858,133.3625,Request failed after 5 attempts: None
+Hiroshima|Shoubara|34.857800|133.020300,2,Hiroshima,Shoubara,34.8578,133.0203,Request failed after 5 attempts: None
+Hiroshima|Kure|34.249200|132.565600,3,Hiroshima,Kure,34.2492,132.5656,Request failed after 5 attempts: None
+Okinawa|Miyakoshima|24.805600|125.281400,2,Okinawa,Miyakoshima,24.8056,125.2814,Request failed after 5 attempts: None
+Shimane|Saigo (Oki Islands)|36.205800|133.328300,4,Shimane,Saigo (Oki Islands),36.2058,133.3283,Request failed after 5 attempts: None
+Okinawa|Miyakoshima|24.805600|125.281400,2,Okinawa,Miyakoshima,24.8056,125.2814,Request failed after 5 attempts: None
