@@ -1,0 +1,25 @@
+{
+  "experiment_id": "baseline_v1",
+  "notebook": "train_rain_models_split(3)",
+  "created_utc": "2026-10-09T06:43:42.048062+00:00",
+  "features": [
+    "temperature_2m_max",
+    "temperature_2m_min",
+    "relative_humidity_2m_mean",
+    "dew_point_2m_mean",
+    "cloud_cover_mean",
+    "pressure_msl_mean",
+    "wind_speed_10m_max",
+    "shortwave_radiation_sum",
+    "month"
+  ],
+  "removed": [],
+  "test_size_requested": 0.2,
+  "random_state": 42,
+  "train_rows": 343035,
+  "test_rows": 85932,
+  "train_end": "2025-01-24 00:00:00",
+  "test_start": "2025-01-25 00:00:00",
+  "model_overrides": {},
+  "note": "Test metrics are descriptive; tune using validation data, not test data."
+}
