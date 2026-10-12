@@ -1,0 +1,17 @@
+{
+  "experiment_id": "baseline_v1",
+  "notebook": "train_wind_models_split",
+  "created_utc": "2026-10-11T17:49:31.505588+00:00",
+  "features": [
+    "surface_pressure_mean",
+    "surface_pressure_max",
+    "surface_pressure_min",
+    "pressure_change",
+    "wind_direction_10m_dominant"
+  ],
+  "removed": [],
+  "test_size": 0.2,
+  "random_state": 42,
+  "model_overrides": {},
+  "note": "Test metrics are descriptive; tune using validation data, not test data."
+}

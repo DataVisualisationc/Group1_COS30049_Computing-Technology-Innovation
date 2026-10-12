@@ -1,0 +1,23 @@
+{
+  "experiment_id": "tune_hgb_v1",
+  "notebook": "train_wind_models_split",
+  "created_utc": "2026-10-12T23:26:48.320181+00:00",
+  "features": [
+    "surface_pressure_mean",
+    "surface_pressure_max",
+    "surface_pressure_min",
+    "pressure_change",
+    "wind_direction_10m_dominant"
+  ],
+  "removed": [],
+  "test_size": 0.2,
+  "random_state": 42,
+  "model_overrides": {
+    "HistGradientBoosting": {
+      "max_iter": 300,
+      "max_leaf_nodes": 20,
+      "l2_regularization": 0.1
+    }
+  },
+  "note": "Test metrics are descriptive; tune using validation data, not test data."
+}

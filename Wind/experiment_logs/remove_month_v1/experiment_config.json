@@ -1,0 +1,19 @@
+{
+  "experiment_id": "remove_month_v1",
+  "notebook": "train_wind_models_split",
+  "created_utc": "2026-10-12T06:57:20.671000+00:00",
+  "features": [
+    "surface_pressure_mean",
+    "surface_pressure_max",
+    "surface_pressure_min",
+    "pressure_change",
+    "wind_direction_10m_dominant"
+  ],
+  "removed": [
+    "month"
+  ],
+  "test_size": 0.2,
+  "random_state": 42,
+  "model_overrides": {},
+  "note": "Test metrics are descriptive; tune using validation data, not test data."
+}
