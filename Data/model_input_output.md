@@ -286,6 +286,48 @@ Random Forest Regressor - very safe - Gradient Boosting Regression
 
 ------------------------------------------------------------------------
 
+## LSTM - Typhoon Trajectory / Nearest Prefecture Prediction
+
+**Machine Learning Model (Multivariate Sequence-to-One Regression / Time-Series Forecasting)** - LSTM predicts the future cyclone centre coordinates from earlier observations of an existing cyclone. A GIS nearest-prefecture lookup then converts the predicted position to a Japanese prefecture. The LSTM does **not** directly predict a prefecture category or whether a new typhoon will form.
+
+**Input (X)**
+
+Time-ordered historical observations from the **same cyclone**, including:
+
+1. `latitude` — observed cyclone centre latitude (JMA; raw)
+2. `longitude` — observed cyclone centre longitude (JMA; raw)
+3. Relevant daily Open-Meteo weather variables available at the observation times, such as pressure, wind, temperature, humidity and precipitation (raw)
+
+The input sequence must contain only observations before the target time. Storm/event identifiers are used for grouping and splitting, not as model features.
+
+**Output (y)**
+
+1. Future cyclone `latitude` — regression target
+2. Future cyclone `longitude` — regression target
+
+**Created after prediction**
+
+- `predicted_nearest_prefecture` — calculate the nearest Japanese prefecture using the predicted coordinates and Japan's prefecture GIS polygons (`jp.shp`), not by treating the LSTM output as a category.
+
+**Training / testing**
+
+- Split by cyclone/storm identity so the same cyclone does not appear in both training and testing.
+- Evaluate latitude/longitude position error (preferably great-circle distance in km), nearest-prefecture agreement, and a last-position or motion-extrapolation baseline.
+- Fit preprocessing/scalers on training data only.
+
+**Purpose / flow**
+
+`Historical cyclone coordinates + past weather -> trajectory LSTM -> future cyclone latitude/longitude -> Japan GIS nearest-prefecture lookup -> predicted_nearest_prefecture -> Typhoon risk classifier (alongside forecast weather)`
+
+**Status / notes**
+
+- The trajectory model requires a known, existing cyclone and its past positions; it cannot predict a future cyclone's location from a date alone.
+- The current JMA dataset is selected around confirmed landfalls, so it is not representative of all cyclones or non-landfall events.
+- The prefecture is the *nearest* prefecture to the predicted cyclone position; it does not by itself establish that landfall will occur there.
+- A weather forecast for the same target date and location must be aligned with the classifier's input requirements.
+
+------------------------------------------------------------------------
+
 ## Typhoon
 
 **Machine Learning Model (Classification)**
@@ -356,7 +398,7 @@ Random Forest Regressor - very safe - Gradient Boosting Regression
 
 `Weather LSTM -> forecast daily weather + trajectory LSTM -> future cyclone coordinates -> nearest_prefecture -> typhoon classifier -> risk`
 
-The trajectory LSTM is a separate **proposed** model and is not implemented in `train_landfall_models_event_split.py`. It requires a known active cyclone history. `nearest_prefecture` cannot be inferred from future local weather alone with the same meaning as a cyclone's nearest prefecture.
+The trajectory LSTM is documented separately above and is not implemented in `train_landfall_models_event_split.py`. It requires a known active cyclone history. `nearest_prefecture` cannot be inferred from future local weather alone with the same meaning as a cyclone's nearest prefecture.
 
 **Important limitations**
 
