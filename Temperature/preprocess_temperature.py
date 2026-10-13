@@ -59,15 +59,24 @@ def main():
             w["prefecture"]=pref; s["prefecture"]=pref
             wc=["prefecture","location_id","date","town","temperature_2m_max","temperature_2m_min"]
             sc=["prefecture","location_id","date","shortwave_radiation_sum","sunshine_duration","daylight_duration","dew_point_2m_mean"]
+            
             missing_weather = [c for c in wc if c not in w.columns]
+            
             missing_solar = [c for c in sc if c not in s.columns]
 
             if missing_weather or missing_solar:
                 print(f"SKIP {pref}:")
                 print(f"  Missing Weather columns: {missing_weather}")
                 print(f"  Missing Solar columns:   {missing_solar}")
+                
                 continue
-            m=w[wc].merge(s[sc],on=["prefecture","location_id","date"],how="inner")
+
+            m=w[wc].merge(
+                s[sc],
+                on=["prefecture","location_id","date"],
+                how="inner"
+            )
+            
             if national is not None:
                 c=national[national["prefecture"].astype(str).str.lower()==pref.lower()]
             else:
@@ -76,20 +85,43 @@ def main():
                 if c is not None:c["date"]=pd.to_datetime(c["date"],errors="coerce")
             if c is None or "cloud_cover_mean" not in c:
                 print(f"SKIP {pref}: cloud data not found"); continue
+            
             if "location_id" in c:
-                m=m.merge(c[["location_id","date","cloud_cover_mean"]],on=["location_id","date"],how="inner")
+                m=m.merge(c[["location_id","date","cloud_cover_mean"]],
+                on=["location_id","date"],
+                how="inner"
+            )
+
             elif "town" in c:
-                m=m.merge(c[["town","date","cloud_cover_mean"]],on=["town","date"],how="inner")
-            else: continue
+                m=m.merge(c[["town","date","cloud_cover_mean"]],
+                on=["town","date"],
+                how="inner"
+            )
+            
+            else: 
+                continue
             m["month"]=m["date"].dt.month
-            for col in FEATURES+TARGETS:m[col]=pd.to_numeric(m[col],errors="coerce")
+            
+            for col in FEATURES+TARGETS:
+                m[col]=pd.to_numeric(m[col],errors="coerce")
+
             m=m.dropna(subset=FEATURES+TARGETS)
+
             outputs.append(m); print(f"OK {pref}: {len(m):,} rows")
+
         except Exception as e: print(f"SKIP {pref}: {e}")
-    if not outputs: raise RuntimeError("No datasets were merged.")
-    final=pd.concat(outputs,ignore_index=True).sort_values(["date","prefecture","location_id"])
-    final=final[["prefecture","town","location_id","date"]+FEATURES+TARGETS]
+    if not outputs: 
+        raise RuntimeError("No datasets were merged.")
+    
+    final= pd.concat(outputs,ignore_index=True).sort_values(["date","prefecture","location_id"])
+    
+    final = final[["prefecture","town","location_id","date"]
+    + FEATURES 
+    + TARGETS
+    ]
+    
     final.to_csv(OUT,index=False,encoding="utf-8-sig")
+    
     print(f"\nSaved {len(final):,} rows -> {OUT}")
 
 if __name__=="__main__": main()
