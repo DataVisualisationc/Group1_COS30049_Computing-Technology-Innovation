@@ -1,3 +1,5 @@
 *.joblib filter=lfs diff=lfs merge=lfs -text
 *.zip filter=lfs diff=lfs merge=lfs -text
 Data/Open-Meteo/Missing_weather_dataset/group_1_temperature_humidity_cloud_2021_2026.csv filter=lfs diff=lfs merge=lfs -text
+Data/Open-Meteo/Combined_daily_dataset/japan_complete_daily_2021_2026.csv filter=lfs diff=lfs merge=lfs -text
+Future[[:space:]]Weather[[:space:]]Attributes/Forecast/baseline_v1/future_daily_weather_attributes.csv filter=lfs diff=lfs merge=lfs -text
