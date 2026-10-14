@@ -1,0 +1,28 @@
+{
+  "experiment_id": "remove_max_daily_rain_past_7day_v1",
+  "notebook": "train_flood_models",
+  "created_utc": "2026-10-14T04:31:17.692825+00:00",
+  "features": [
+    "rain_sum_past_3day",
+    "rain_sum_past_7day",
+    "precipitation_hours_past_7day",
+    "river_discharge_previous_day",
+    "river_discharge_mean_7day",
+    "river_discharge_median_7day",
+    "river_discharge_max_7day",
+    "discharge_ratio",
+    "elevation",
+    "month"
+  ],
+  "removed": [
+    "max_daily_rain_past_7day"
+  ],
+  "test_size_requested": 0.2,
+  "random_state": 42,
+  "train_rows": 304348,
+  "test_rows": 76134,
+  "train_end": "2025-01-26 00:00:00",
+  "test_start": "2025-01-27 00:00:00",
+  "model_overrides": {},
+  "note": "Test metrics are descriptive; tune using validation data, not test data."
+}
