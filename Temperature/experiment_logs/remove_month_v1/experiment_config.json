@@ -1,0 +1,19 @@
+{
+  "experiment_id": "remove_month_v1",
+  "notebook": "train_temperature_models",
+  "created_utc": "2026-10-12T23:38:36.071433+00:00",
+  "features": [
+    "shortwave_radiation_sum",
+    "sunshine_duration",
+    "daylight_duration",
+    "cloud_cover_mean",
+    "dew_point_2m_mean"
+  ],
+  "removed": [
+    "month"
+  ],
+  "test_size": 0.2,
+  "random_state": 42,
+  "model_overrides": {},
+  "note": "Test metrics are descriptive; tune using validation data, not test data."
+}
